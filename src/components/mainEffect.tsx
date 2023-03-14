@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import Link from 'next/link';
+
 import { useState, useEffect } from 'react';
 
 const CImage = ({
@@ -48,9 +50,11 @@ const Title = ({
             onMouseEnter={() => setRotation(index)}
             onMouseLeave={() => setIndex(-1)}
         >
-            <h1 className="block border-none text-[6vw] leading-[1.25] hover:text-secondary ">
-                {title}
-            </h1>
+            <Link href={href}>
+                <h1 className="block border-none text-[6vw] leading-[1.25] hover:text-secondary ">
+                    {title}
+                </h1>
+            </Link>
         </div>
     );
 };
