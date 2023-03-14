@@ -1,15 +1,30 @@
 import type { AppProps } from 'next/app';
+import { GetServerSideProps, GetStaticProps } from 'next';
 import type { ReactElement } from 'react';
 
+import { t } from '@lingui/macro';
+
 import MainEffect from '@/components/mainEffect';
-
 import MainLayout from '@/layouts/mainLayout';
-import type { PageWithHeaderLayout } from '@cTypes/layoutTypes';
 
-const Home = () => {
+import { loadTranslation } from '@/utils/utils';
+
+export const getServerSideProps: GetServerSideProps = async (ctx) => {
+    const translation = await loadTranslation(
+        ctx.locale!,
+        process.env.NODE_ENV === 'production'
+    );
+
+    return {
+        props: {
+            translation
+        }
+    };
+};
+const Home = ({}) => {
     const effectData = [
         {
-            title: 'Who we are ?',
+            title: t({ id: 'Home.title.whoAreWe', message: 'Who we are ?' }),
             href: '/about-us',
             imageData: {
                 url: 'https://loremflickr.com/300/400',
@@ -19,7 +34,7 @@ const Home = () => {
         },
 
         {
-            title: 'Our Talent',
+            title: t({ id: 'Home.title.ourTalent', message: 'Our Talent' }),
             href: '/talent',
             imageData: {
                 url: 'https://loremflickr.com/600/500',
@@ -28,7 +43,7 @@ const Home = () => {
             }
         },
         {
-            title: 'Our Services',
+            title: t({ id: 'Home.title.ourServices', message: 'Our Services' }),
             href: '/services',
             imageData: {
                 url: 'https://loremflickr.com/500/400',
@@ -37,7 +52,10 @@ const Home = () => {
             }
         },
         {
-            title: 'Reputation Management',
+            title: t({
+                id: 'Home.title.reputationManagement',
+                message: 'Reputation Management'
+            }),
             href: '/management/reputation',
             imageData: {
                 url: 'https://loremflickr.com/500/800',
@@ -46,7 +64,10 @@ const Home = () => {
             }
         },
         {
-            title: 'Influencer Management',
+            title: t({
+                id: 'Home.title.influencerManagement',
+                message: 'Influencer Management'
+            }),
             href: '/management/reputation',
             imageData: {
                 url: 'https://loremflickr.com/400/500',
@@ -55,7 +76,10 @@ const Home = () => {
             }
         },
         {
-            title: 'Business Management',
+            title: t({
+                id: 'Home.title.businessManagement',
+                message: 'Business Management'
+            }),
             href: '/management/business',
             imageData: {
                 url: 'https://loremflickr.com/900/700',
@@ -64,7 +88,7 @@ const Home = () => {
             }
         },
         {
-            title: 'Clients',
+            title: t({ id: 'Home.title.clients', message: 'Clients' }),
             href: '/clients',
             imageData: {
                 url: 'https://loremflickr.com/1100/900',
@@ -73,7 +97,10 @@ const Home = () => {
             }
         },
         {
-            title: 'Contributors',
+            title: t({
+                id: 'Home.title.contributors',
+                message: 'Contributors'
+            }),
             href: '/contributors',
             imageData: {
                 url: 'https://loremflickr.com/1100/900',

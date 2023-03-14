@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2023-03-14 16:30+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: el\n"
+
+#: src/pages/index.tsx:65
+msgid "Home.title.businessManagement"
+msgstr "Διοίκηση Επιχειρήσεων"
+
+#: src/pages/index.tsx:77
+msgid "Home.title.clients"
+msgstr "Πελάτες"
+
+#: src/pages/index.tsx:86
+msgid "Home.title.contributors"
+msgstr "Συνεισφέροντες"
+
+#: src/pages/index.tsx:53
+msgid "Home.title.influencerManagement"
+msgstr "Διοίκηση Influencer"
+
+#: src/pages/index.tsx:32
+msgid "Home.title.ourServices"
+msgstr "Οι Υπηρεσίες μας"
+
+#: src/pages/index.tsx:23
+msgid "Home.title.ourTalent"
+msgstr "Τα ταλέντα μας"
+
+#: src/pages/index.tsx:41
+msgid "Home.title.reputationManagement"
+msgstr "Διαχείριση Φήμης"
+
+#: src/pages/index.tsx:13
+msgid "Home.title.whoAreWe"
+msgstr "Ποιοι είμαστε"

@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: \n"
+"Language-Team: \n"
+"Content-Type: \n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: src/pages/index.tsx:65
+msgid "Home.title.businessManagement"
+msgstr "Business Management"
+
+#: src/pages/index.tsx:77
+msgid "Home.title.clients"
+msgstr "Clients"
+
+#: src/pages/index.tsx:86
+msgid "Home.title.contributors"
+msgstr "Contributors"
+
+#: src/pages/index.tsx:53
+msgid "Home.title.influencerManagement"
+msgstr "Influencer Management"
+
+#: src/pages/index.tsx:32
+msgid "Home.title.ourServices"
+msgstr "Our Services"
+
+#: src/pages/index.tsx:23
+msgid "Home.title.ourTalent"
+msgstr "Our Talent"
+
+#: src/pages/index.tsx:41
+msgid "Home.title.reputationManagement"
+msgstr "Reputation Management"
+
+#: src/pages/index.tsx:13
+msgid "Home.title.whoAreWe"
+msgstr "Who we are ?"
