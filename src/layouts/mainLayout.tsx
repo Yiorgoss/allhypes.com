@@ -9,14 +9,14 @@ const mainLayout = ({
     const NAVLINKS = [
         { title: 'Home', path: '/' },
         { title: 'About Us', path: '/about-us' },
+        { title: 'Services', path: '/services' },
         { title: 'Contact', path: '/contact' },
-        { title: 'Work', path: '/work' }
     ];
 
     return (
-        <div className="text-secondary bg-primary">
+        <div className="text-secondary bg-primary z-20">
             <Header navLinks={NAVLINKS} />
-            <main>
+            <main className="overflow-hidden">
                 {children}
             </main>
         </div>

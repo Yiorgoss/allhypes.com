@@ -7,56 +7,91 @@ import MainLayout from '@/layouts/mainLayout';
 import type { PageWithHeaderLayout } from '@cTypes/layoutTypes';
 
 const Home = () => {
-    const imageData = [
+    const effectData = [
         {
-            title: 'Title 1',
-            url: 'https://loremflickr.com/300/400',
-            height: 400,
-            width: 300
+            title: 'Who we are ?',
+            href: '/about-us',
+            imageData: {
+                url: 'https://loremflickr.com/300/400',
+                height: 400,
+                width: 300
+            }
         },
 
         {
-            title: 'Title 2',
-            url: 'https://loremflickr.com/600/500',
-            height: 500,
-            width: 600
+            title: 'Our Talent',
+            href: '/talent',
+            imageData: {
+                url: 'https://loremflickr.com/600/500',
+                height: 500,
+                width: 600
+            }
         },
         {
-            title: 'Title 3',
-            url: 'https://loremflickr.com/500/400',
-            height: 400,
-            width: 500
+            title: 'Our Services',
+            href: '/services',
+            imageData: {
+                url: 'https://loremflickr.com/500/400',
+                height: 400,
+                width: 500
+            }
         },
         {
-            title: 'Title 4',
-            url: 'https://loremflickr.com/500/800',
-            height: 800,
-            width: 500
+            title: 'Reputation Management',
+            href: '/management/reputation',
+            imageData: {
+                url: 'https://loremflickr.com/500/800',
+                height: 800,
+                width: 500
+            }
         },
         {
-            title: 'Title 5',
-            url: 'https://loremflickr.com/400/500',
-            height: 500,
-            width: 700
+            title: 'Influencer Management',
+            href: '/management/reputation',
+            imageData: {
+                url: 'https://loremflickr.com/400/500',
+                height: 500,
+                width: 700
+            }
         },
         {
-            title: 'Title 6',
-            url: 'https://loremflickr.com/900/700',
-            height: 700,
-            width: 900
+            title: 'Business Management',
+            href: '/management/business',
+            imageData: {
+                url: 'https://loremflickr.com/900/700',
+                height: 700,
+                width: 900
+            }
         },
         {
-            title: 'Title 7',
-            url: 'https://loremflickr.com/1100/900',
-            height: 900,
-            width: 1100
+            title: 'Clients',
+            href: '/clients',
+            imageData: {
+                url: 'https://loremflickr.com/1100/900',
+                height: 900,
+                width: 1100
+            }
+        },
+        {
+            title: 'Contributors',
+            href: '/contributors',
+            imageData: {
+                url: 'https://loremflickr.com/1100/900',
+                height: 900,
+                width: 1100
+            }
         }
     ];
-    return <MainEffect data={imageData} />;
+    return <MainEffect effectData={effectData} />;
 };
 
 Home.getLayout = function getLayout(page: ReactElement) {
-    return <MainLayout>{page}</MainLayout>;
+    return (
+        <div className="">
+            <div className="">211 015 43 31</div>
+            <MainLayout>{page}</MainLayout>
+        </div>
+    );
 };
 
 export default Home;
