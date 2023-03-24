@@ -6,35 +6,129 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: pseudo\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
-#: src/pages/index.tsx:65
+#: src/pages/about-us.tsx:44
+msgid ""
+msgstr ""
+
+#: src/pages/about-us.tsx:35
+msgid "AboutUs.head.meta.description"
+msgstr ""
+
+#: src/pages/about-us.tsx:28
+msgid "AboutUs.head.title"
+msgstr ""
+
+#: src/pages/about-us.tsx:49
+msgid "AboutUs.textBlock.1"
+msgstr ""
+
+#: src/pages/about-us.tsx:56
+msgid "AboutUs.textBlock.2"
+msgstr ""
+
+#: src/pages/about-us.tsx:64
+msgid "AboutUs.textBlock.3"
+msgstr ""
+
+#: src/pages/contact.tsx:15
+msgid "Contact.head.title"
+msgstr ""
+
+#: src/pages/contact.tsx:22
+msgid "Contact.meta.description"
+msgstr ""
+
+#: src/pages/contributors.tsx:39
+msgid "Contributors.head.meta.description"
+msgstr ""
+
+#: src/pages/contributors.tsx:32
+msgid "Contributors.head.title"
+msgstr ""
+
+#: src/pages/index.tsx:114
+msgid "Home.head.meta.description"
+msgstr ""
+
+#: src/pages/index.tsx:107
+msgid "Home.head.title"
+msgstr ""
+
+#: src/pages/index.tsx:70
 msgid "Home.title.businessManagement"
 msgstr ""
 
-#: src/pages/index.tsx:77
+#: src/pages/index.tsx:82
 msgid "Home.title.clients"
 msgstr ""
 
-#: src/pages/index.tsx:86
+#: src/pages/index.tsx:91
 msgid "Home.title.contributors"
 msgstr ""
 
-#: src/pages/index.tsx:53
+#: src/pages/index.tsx:58
 msgid "Home.title.influencerManagement"
 msgstr ""
 
-#: src/pages/index.tsx:32
-msgid "Home.title.ourServices"
-msgstr ""
+#: src/pages/index.tsx:46
+#~ msgid "Home.title.ourServices"
+#~ msgstr ""
 
-#: src/pages/index.tsx:23
+#: src/pages/index.tsx:37
 msgid "Home.title.ourTalent"
 msgstr ""
 
-#: src/pages/index.tsx:41
+#: src/pages/index.tsx:46
 msgid "Home.title.reputationManagement"
 msgstr ""
 
-#: src/pages/index.tsx:13
+#: src/pages/index.tsx:27
 msgid "Home.title.whoAreWe"
+msgstr ""
+
+#: src/pages/services/index.tsx:53
+msgid "Services.head.meta.description"
+msgstr ""
+
+#: src/pages/services/index.tsx:45
+msgid "Services.head.title"
+msgstr ""
+
+#: src/pages/talent/index.tsx:71
+msgid "Talent.head.meta.description"
+msgstr ""
+
+#: src/pages/talent/index.tsx:63
+msgid "Talent.head.title"
+msgstr ""
+
+#: src/components/contactForm.tsx:51
+msgid "contactForm.input.email"
+msgstr ""
+
+#: src/components/contactForm.tsx:59
+msgid "contactForm.input.message"
+msgstr ""
+
+#: src/components/contactForm.tsx:35
+msgid "contactForm.input.name"
+msgstr ""
+
+#: src/components/contactForm.tsx:43
+msgid "contactForm.input.number"
+msgstr ""
+
+#: src/components/contactForm.tsx:70
+msgid "contactForm.input.reset"
+msgstr ""
+
+#: src/components/contactForm.tsx:74
+msgid "contactForm.input.submit"
 msgstr ""

@@ -1,9 +1,10 @@
+import Head from 'next/head'
 import { GetStaticProps, GetServerSideProps } from 'next';
 import { ReactElement } from 'react';
 
 import { t } from '@lingui/macro';
 
-import DescSection from '@/components/descSection';
+import BannerHeader from '@/components/bannerHeader'
 import MainLayout from '@/layouts/mainLayout';
 
 import { loadTranslation } from '@/utils/utils';
@@ -56,14 +57,38 @@ const Talent = () => {
     ];
 
     return (
+        <>
+            <Head>
+                <title>
+                    {t({
+                        id: 'Talent.head.title',
+                        message:
+                            'The point is to know how to do it all All Hypes!'
+                    })}
+        </title>
+        <meta
+        name='description'
+        content={t({
+            id: 'Talent.head.meta.description',
+            message:'At All Hype we have the people and knowledge to always be on top.'
+        })}
+        />
+        </Head>
         <div className="container mx-auto mt-[100px]">
-            <h1 className="py-10 text-center text-4xl font-semibold">
-                Our Talent
-            </h1>
-            <DescSection data={talentData} />
+        <h1 className="py-10 text-center text-4xl font-semibold">
+        Our Talent
+        </h1>
+        {talentData.map(({title,image,content}, i) => (
+            <div className="" key={i}>
+                <BannerHeader title={title} image={image} />
+            </div>
+
+        ))}
         </div>
+        </>
     );
 };
+
 
 Talent.getLayout = function getLayout(page: ReactElement) {
     return <MainLayout>{page}</MainLayout>;

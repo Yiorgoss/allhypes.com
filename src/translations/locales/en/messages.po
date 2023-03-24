@@ -11,34 +11,122 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#: src/pages/index.tsx:65
+#: src/pages/about-us.tsx:44
+msgid ""
+msgstr "WE ARE THE ALL HYPES AGENCY"
+
+#: src/pages/about-us.tsx:35
+msgid "AboutUs.head.meta.description"
+msgstr "AboutUs.head.meta.description"
+
+#: src/pages/about-us.tsx:28
+msgid "AboutUs.head.title"
+msgstr "AboutUs.head.title"
+
+#: src/pages/about-us.tsx:49
+msgid "AboutUs.textBlock.1"
+msgstr "Η …… είναι μία δυναμική, ενεργητική διαφημιστική εταιρεία διεθνής εμβέλειας. Δημιουργώντας ένα περιβάλλον συνεργασίας φιλικό αλλά και ταυτόχρονα επαγγελματικό, χτίζουμε σχέσεις εμπιστοσύνης και εξέλιξης με τους πελάτες μας."
+
+#: src/pages/about-us.tsx:56
+msgid "AboutUs.textBlock.2"
+msgstr "Στην εποχή του Generation Z ερχόμαστε να δώσουμε την ευκαιρία τόσο σε επιχειρήσεις όσο και σε μεμονωμένα πρόσωπα να αναδείξουν το προιόν ή το ταλέντο τους με τρόπο μεθοδικό και αποτελεσματικό και απώτερο σκοπό την κορυφή! Είμαστε μία εταιρεία που μπορεί να αναλάβει την διαφήμιση σας σε οποιοδήποτε στάδιο και αν βρίσκεται η επιχείρηση σας ή η προσωπική σας εξέλιξη. Με βασικό γνώμονα του στόχου σας σήμερα χτίζουμε το αύριο !"
+
+#: src/pages/about-us.tsx:64
+msgid "AboutUs.textBlock.3"
+msgstr "Στόχος μας είναι να προωθήσουμε την ιδέα σας με έναν τρόπο πρωτότυπο, εξειδικευμένο η λιγότερο πολύπλοκο που να εμπνέει τον αγοραστή ή ακόλουθο να αγοράσει από εσάς ή να ταξιδέψει μαζί σας στον κόσμο του διαδικτύου. Ειδικότητα μας είναι το PR & communication strategy, influencer marketing, business marketing, brand development & ideation, event management, social media management, sponsorships."
+
+#: src/pages/contact.tsx:15
+msgid "Contact.head.title"
+msgstr "Contact.head.title"
+
+#: src/pages/contact.tsx:22
+msgid "Contact.meta.description"
+msgstr "Contact.meta.description"
+
+#: src/pages/contributors.tsx:39
+msgid "Contributors.head.meta.description"
+msgstr "Contributors.head.meta.description"
+
+#: src/pages/contributors.tsx:32
+msgid "Contributors.head.title"
+msgstr "Contributors.head.title"
+
+#: src/pages/index.tsx:114
+msgid "Home.head.meta.description"
+msgstr "Home.head.meta.description"
+
+#: src/pages/index.tsx:107
+msgid "Home.head.title"
+msgstr "Home.head.title"
+
+#: src/pages/index.tsx:70
 msgid "Home.title.businessManagement"
 msgstr "Business Management"
 
-#: src/pages/index.tsx:77
+#: src/pages/index.tsx:82
 msgid "Home.title.clients"
 msgstr "Clients"
 
-#: src/pages/index.tsx:86
+#: src/pages/index.tsx:91
 msgid "Home.title.contributors"
 msgstr "Contributors"
 
-#: src/pages/index.tsx:53
+#: src/pages/index.tsx:58
 msgid "Home.title.influencerManagement"
 msgstr "Influencer Management"
 
-#: src/pages/index.tsx:32
-msgid "Home.title.ourServices"
-msgstr "Our Services"
+#: src/pages/index.tsx:46
+#~ msgid "Home.title.ourServices"
+#~ msgstr "Our Services"
 
-#: src/pages/index.tsx:23
+#: src/pages/index.tsx:37
 msgid "Home.title.ourTalent"
 msgstr "Our Talent"
 
-#: src/pages/index.tsx:41
+#: src/pages/index.tsx:46
 msgid "Home.title.reputationManagement"
 msgstr "Reputation Management"
 
-#: src/pages/index.tsx:13
+#: src/pages/index.tsx:27
 msgid "Home.title.whoAreWe"
 msgstr "Who we are ?"
+
+#: src/pages/services/index.tsx:53
+msgid "Services.head.meta.description"
+msgstr "Reaching the top is not difficult! It's hard to stay on top and here comes All Hypes!"
+
+#: src/pages/services/index.tsx:45
+msgid "Services.head.title"
+msgstr "All Hypes means always being on top!"
+
+#: src/pages/talent/index.tsx:71
+msgid "Talent.head.meta.description"
+msgstr "Talent.head.meta.description"
+
+#: src/pages/talent/index.tsx:63
+msgid "Talent.head.title"
+msgstr "Talent.head.title"
+
+#: src/components/contactForm.tsx:51
+msgid "contactForm.input.email"
+msgstr "Email"
+
+#: src/components/contactForm.tsx:59
+msgid "contactForm.input.message"
+msgstr "Message"
+
+#: src/components/contactForm.tsx:35
+msgid "contactForm.input.name"
+msgstr "Full Name"
+
+#: src/components/contactForm.tsx:43
+msgid "contactForm.input.number"
+msgstr "Phone number"
+
+#: src/components/contactForm.tsx:70
+msgid "contactForm.input.reset"
+msgstr "Reset"
+
+#: src/components/contactForm.tsx:74
+msgid "contactForm.input.submit"
+msgstr "Submit"

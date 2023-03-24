@@ -6,35 +6,129 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: el\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
-#: src/pages/index.tsx:65
+#: src/pages/about-us.tsx:44
+msgid ""
+msgstr ""
+
+#: src/pages/about-us.tsx:35
+msgid "AboutUs.head.meta.description"
+msgstr "Όσα εσένα σου φαίνονται προκλήσεις και δοκιμασίες σε εμάς μας φαίνονται ευκολίες !"
+
+#: src/pages/about-us.tsx:28
+msgid "AboutUs.head.title"
+msgstr "Εμείς δεν προσπαθούμε…επιτυγχάνουμε !"
+
+#: src/pages/about-us.tsx:49
+msgid "AboutUs.textBlock.1"
+msgstr "Η ALL HYPES είναι μία δυναμική, ενεργητική διαφημιστική εταιρεία διεθνής εμβέλειας. Δημιουργώντας ένα περιβάλλον συνεργασίας φιλικό αλλά και ταυτόχρονα επαγγελματικό, χτίζουμε σχέσεις εμπιστοσύνης και εξέλιξης με τους πελάτες μας."
+
+#: src/pages/about-us.tsx:56
+msgid "AboutUs.textBlock.2"
+msgstr "Στην εποχή του Generation Z ερχόμαστε να δώσουμε την ευκαιρία τόσο σε επιχειρήσεις όσο και σε μεμονωμένα πρόσωπα να αναδείξουν το προιόν ή το ταλέντο τους με τρόπο μεθοδικό και αποτελεσματικό και απώτερο σκοπό την κορυφή! Είμαστε μία εταιρεία που μπορεί να αναλάβει την διαφήμιση σας σε οποιοδήποτε στάδιο και αν βρίσκεται η επιχείρηση σας ή η προσωπική σας εξέλιξη. Με βασικό γνώμονα του στόχου σας σήμερα χτίζουμε το αύριο !"
+
+#: src/pages/about-us.tsx:64
+msgid "AboutUs.textBlock.3"
+msgstr "Στόχος μας είναι να προωθήσουμε την ιδέα σας με έναν τρόπο πρωτότυπο, εξειδικευμένο η λιγότερο πολύπλοκο που να εμπνέει τον αγοραστή ή ακόλουθο να αγοράσει από εσάς ή να ταξιδέψει μαζί σας στον κόσμο του διαδικτύου. Ειδικότητα μας είναι το PR & communication strategy, influencer marketing, business marketing, brand development & ideation, event management, social media management, sponsorships."
+
+#: src/pages/contact.tsx:15
+msgid "Contact.head.title"
+msgstr "All Hypes means YOU !"
+
+#: src/pages/contact.tsx:22
+msgid "Contact.meta.description"
+msgstr "Στην All Hypes τα πάντα είσαι εσύ ! Η 360ο εμπειρία μας θα σε κάνει “καπετάνιο” στην δική σου καριέρα"
+
+#: src/pages/contributors.tsx:39
+msgid "Contributors.head.meta.description"
+msgstr "Για εμάς εσύ είσαι ο ήρωας της πραγματικής ζωής γι αυτό και για την All Hypes πρωταγωνιστής είσαι εσυ Για εμάς εσύ είσαι ο ήρωας της πραγματικής ζωής γι αυτό και για την All Hypes πρωταγωνιστής είσαι εσυ !"
+
+#: src/pages/contributors.tsx:32
+msgid "Contributors.head.title"
+msgstr "Στο All Hypes πρωταγωνιστείς είσαι εσύ !"
+
+#: src/pages/index.tsx:114
+msgid "Home.head.meta.description"
+msgstr "Στην All Hype έχουμε τους ανθρώπους και την γνώση για να είσαι πάντα στην κορυφή."
+
+#: src/pages/index.tsx:107
+msgid "Home.head.title"
+msgstr "Το ζήτημα είναι να ξέρεις πως να τα κάνεις όλα All Hypes !"
+
+#: src/pages/index.tsx:70
 msgid "Home.title.businessManagement"
 msgstr "Διοίκηση Επιχειρήσεων"
 
-#: src/pages/index.tsx:77
+#: src/pages/index.tsx:82
 msgid "Home.title.clients"
 msgstr "Πελάτες"
 
-#: src/pages/index.tsx:86
+#: src/pages/index.tsx:91
 msgid "Home.title.contributors"
 msgstr "Συνεισφέροντες"
 
-#: src/pages/index.tsx:53
+#: src/pages/index.tsx:58
 msgid "Home.title.influencerManagement"
 msgstr "Διοίκηση Influencer"
 
-#: src/pages/index.tsx:32
-msgid "Home.title.ourServices"
-msgstr "Οι Υπηρεσίες μας"
+#: src/pages/index.tsx:46
+#~ msgid "Home.title.ourServices"
+#~ msgstr "Οι Υπηρεσίες μας"
 
-#: src/pages/index.tsx:23
+#: src/pages/index.tsx:37
 msgid "Home.title.ourTalent"
 msgstr "Τα ταλέντα μας"
 
-#: src/pages/index.tsx:41
+#: src/pages/index.tsx:46
 msgid "Home.title.reputationManagement"
 msgstr "Διαχείριση Φήμης"
 
-#: src/pages/index.tsx:13
+#: src/pages/index.tsx:27
 msgid "Home.title.whoAreWe"
 msgstr "Ποιοι είμαστε"
+
+#: src/pages/services/index.tsx:53
+msgid "Services.head.meta.description"
+msgstr "Το να φτάσεις την κορυφή δεν είναι κάτι δύσκολο! Δύσκολο είναι να μένεις στην κορυφή και εδώ έρχεται η All Hypes !"
+
+#: src/pages/services/index.tsx:45
+msgid "Services.head.title"
+msgstr "All Hypes means always being on top!"
+
+#: src/pages/talent/index.tsx:71
+msgid "Talent.head.meta.description"
+msgstr ""
+
+#: src/pages/talent/index.tsx:63
+msgid "Talent.head.title"
+msgstr ""
+
+#: src/components/contactForm.tsx:51
+msgid "contactForm.input.email"
+msgstr ""
+
+#: src/components/contactForm.tsx:59
+msgid "contactForm.input.message"
+msgstr ""
+
+#: src/components/contactForm.tsx:35
+msgid "contactForm.input.name"
+msgstr ""
+
+#: src/components/contactForm.tsx:43
+msgid "contactForm.input.number"
+msgstr ""
+
+#: src/components/contactForm.tsx:70
+msgid "contactForm.input.reset"
+msgstr ""
+
+#: src/components/contactForm.tsx:74
+msgid "contactForm.input.submit"
+msgstr ""

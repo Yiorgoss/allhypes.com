@@ -33,7 +33,9 @@ const Header = ({
     }, [active]);
     return (
         <div className="absolute top-0 z-50 grid h-[100px] w-full grid-cols-2 bg-transparent text-2xl">
-            <div className="my-auto">LOGO</div>
+            <Link href="/">
+                <div className="my-auto bg-black w-[100px] h-[100px] text-white">LOGO</div>
+            </Link>
             <div
                 className="my-auto mr-10 ml-auto md:hidden "
                 onClick={() => setActive(!active)}

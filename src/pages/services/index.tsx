@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Head from "next/head"
 import { GetStaticProps, GetServerSideProps } from 'next';
 import { ReactElement } from 'react';
 
@@ -37,24 +38,44 @@ const Services = () => {
     ];
 
     return (
+        <>
+        <Head>
+
+            <title>
+                {t({
+                    id: 'Services.head.title',
+                    message:
+                            'All Hypes means always being on top!'
+                })}
+        </title>
+        <meta
+        name='description'
+        content={t({
+            id: 'Services.head.meta.description',
+            message:"Reaching the top is not difficult! It's hard to stay on top and here comes All Hypes!"
+        })}
+        />
+        </Head>
+
+
         <div className="container mx-auto mt-[100px]">
-            <h1 className="text-center text-4xl font-semibold tracking-wide py-10">
-                Our Services
-            </h1>
-            <div className="grid grid-cols-2 gap-4">
-                <div className="">
-                    {servicesData.map((service, index) => (
-                        <div className="my-5 divide-y" key={index}>
-                            <h2 className=" text-2xl font-medium">
-                                {service.title}
-                            </h2>
-                            <div className="">{service.description}</div>
-                        </div>
-                    ))}
+        <h1 className="text-center text-4xl font-semibold tracking-wide py-10">
+        Our Services
+        </h1>
+        <div className="grid grid-cols-2 gap-4">
+        <div className="">
+        {servicesData.map((service, index) => (
+            <div className="my-5 divide-y" key={index}>
+                <h2 className=" text-2xl font-medium">
+                    {service.title}
+                </h2>
+                <div className="">{service.description}</div>
+            </div>
+        ))}
                 </div>
                 <div className="relative m-6 overflow-hidden my-auto h-5/6 rounded-lg">
                     <Image
-                    className=""
+                        className=""
                         src="https://loremflickr.com/1930/1040"
                         alt="alt text"
                         fill
@@ -62,6 +83,7 @@ const Services = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 

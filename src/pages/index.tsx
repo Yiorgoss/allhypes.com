@@ -1,4 +1,4 @@
-import type { AppProps } from 'next/app';
+import Head from 'next/head'
 import { GetServerSideProps, GetStaticProps } from 'next';
 import type { ReactElement } from 'react';
 
@@ -24,10 +24,10 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 const Home = ({}) => {
     const effectData = [
         {
-            title: t({ id: 'Home.title.whoAreWe', message: 'Who we are ?' }),
+            title: t({ id: 'Home.title.whoAreWe', message: 'Who we are?' }),
             href: '/about-us',
             imageData: {
-                url: 'https://loremflickr.com/300/400',
+                url: '/media/who_we_are.jpeg',
                 height: 400,
                 width: 300
             }
@@ -37,18 +37,9 @@ const Home = ({}) => {
             title: t({ id: 'Home.title.ourTalent', message: 'Our Talent' }),
             href: '/talent',
             imageData: {
-                url: 'https://loremflickr.com/600/500',
+                url: '/media/talent.jpeg',
                 height: 500,
                 width: 600
-            }
-        },
-        {
-            title: t({ id: 'Home.title.ourServices', message: 'Our Services' }),
-            href: '/services',
-            imageData: {
-                url: 'https://loremflickr.com/500/400',
-                height: 400,
-                width: 500
             }
         },
         {
@@ -56,9 +47,9 @@ const Home = ({}) => {
                 id: 'Home.title.reputationManagement',
                 message: 'Reputation Management'
             }),
-            href: '/management/reputation',
+            href: '/services',
             imageData: {
-                url: 'https://loremflickr.com/500/800',
+                url: '/media/reputation.jpeg',
                 height: 800,
                 width: 500
             }
@@ -68,9 +59,9 @@ const Home = ({}) => {
                 id: 'Home.title.influencerManagement',
                 message: 'Influencer Management'
             }),
-            href: '/management/reputation',
+            href: '/services',
             imageData: {
-                url: 'https://loremflickr.com/400/500',
+                url: '/media/influencer.jpeg',
                 height: 500,
                 width: 700
             }
@@ -80,18 +71,18 @@ const Home = ({}) => {
                 id: 'Home.title.businessManagement',
                 message: 'Business Management'
             }),
-            href: '/management/business',
+            href: '/services',
             imageData: {
-                url: 'https://loremflickr.com/900/700',
+                url: '/media/business.jpeg',
                 height: 700,
                 width: 900
             }
         },
         {
             title: t({ id: 'Home.title.clients', message: 'Clients' }),
-            href: '/clients',
+            href: '/contributors',
             imageData: {
-                url: 'https://loremflickr.com/1100/900',
+                url: '/media/clients.jpeg',
                 height: 900,
                 width: 1100
             }
@@ -103,13 +94,31 @@ const Home = ({}) => {
             }),
             href: '/contributors',
             imageData: {
-                url: 'https://loremflickr.com/1100/900',
+                url: '/media/contributors.jpeg',
                 height: 900,
                 width: 1100
             }
         }
     ];
-    return <MainEffect effectData={effectData} />;
+    return (
+        <>
+            <Head>
+                <title>
+                    {t({
+                        id: 'Home.head.title',
+                        message: ''
+                    })}
+                </title>
+                <meta
+                    name="description"
+                    content={t({
+                        id: 'Home.head.meta.description',
+                        message: ''
+                    })}
+                />
+            </Head>
+
+            <MainEffect effectData={effectData} /></>)
 };
 
 Home.getLayout = function getLayout(page: ReactElement) {

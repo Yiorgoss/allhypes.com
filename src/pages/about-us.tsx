@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { ReactElement } from 'react';
 import { GetStaticProps, GetServerSideProps } from 'next';
 
@@ -21,36 +22,55 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 
 const AboutUs = () => {
     return (
-        <div className="container mx-auto mt-[100px]">
-            <h1 className="py-10 text-center text-4xl font-semibold">
-                {t({ id: '', message: 'WE ARE THE ………… AGENCY' })}
-            </h1>
+        <>
+            <Head>
+                <title>
+                    {t({
+                        id: 'AboutUs.head.title',
+                        message: "We don't try...we succeed!"
+                    })}
+                </title>
+                <meta
+                    name="description"
+                    content={t({
+                        id: 'AboutUs.head.meta.description',
+                        message:
+                            'What seems like challenges and trials to you seems easy to us!'
+                    })}
+                />
+            </Head>
 
-            <div className=" mx-auto w-full px-3 text-xl font-normal tracking-wide md:w-[600px]">
-                <div className="">
-                    {t({
-                        id: 'AboutUs.textBlock.1',
-                        message:
-                            'Η …… είναι μία δυναμική, ενεργητική διαφημιστική εταιρεία διεθνής εμβέλειας. Δημιουργώντας ένα περιβάλλον συνεργασίας φιλικό αλλά και ταυτόχρονα επαγγελματικό, χτίζουμε σχέσεις εμπιστοσύνης και εξέλιξης με τους πελάτες μας.'
-                    })}
-                </div>
-                <div className="pt-5">
-                    {t({
-                        id: 'AboutUs.textBlock.2',
-                        message:
-                            'Στην εποχή του Generation Z ερχόμαστε να δώσουμε την ευκαιρία τόσο σε επιχειρήσεις όσο και σε μεμονωμένα πρόσωπα να αναδείξουν το προιόν ή το ταλέντο τους με τρόπο μεθοδικό και αποτελεσματικό και απώτερο σκοπό την κορυφή! Είμαστε μία εταιρεία που μπορεί να αναλάβει την διαφήμιση σας σε οποιοδήποτε στάδιο και αν βρίσκεται η επιχείρηση σας ή η προσωπική σας εξέλιξη. Με βασικό γνώμονα του στόχου σας σήμερα χτίζουμε το αύριο !'
-                    })}
-                </div>
+            <div className="container mx-auto mt-[100px]">
+                <h1 className="py-10 text-center text-4xl font-semibold">
+                    {t({ id: '', message: 'WE ARE THE ALL HYPES AGENCY' })}
+                </h1>
 
-                <div className="pt-5">
-                    {t({
-                        id: 'AboutUs.textBlock.3',
-                        message:
-                            'Στόχος μας είναι να προωθήσουμε την ιδέα σας με έναν τρόπο πρωτότυπο, εξειδικευμένο η λιγότερο πολύπλοκο που να εμπνέει τον αγοραστή ή ακόλουθο να αγοράσει από εσάς ή να ταξιδέψει μαζί σας στον κόσμο του διαδικτύου. Ειδικότητα μας είναι το PR & communication strategy, influencer marketing, business marketing, brand development & ideation, event management, social media management, sponsorships.'
-                    })}
+                <div className=" mx-auto w-full px-3 text-xl font-normal tracking-wide md:w-[600px]">
+                    <div className="">
+                        {t({
+                            id: 'AboutUs.textBlock.1',
+                            message:
+                                'ALL HYPES is a dynamic, active advertising company of international scope. By creating a friendly but at the same time professional cooperation environment, we build relationships of trust and development with our clients.'
+                        })}
+                    </div>
+                    <div className="pt-5">
+                        {t({
+                            id: 'AboutUs.textBlock.2',
+                            message:
+                                'In the era of Generation Z, we come to give the opportunity to both businesses and individuals to showcase their product or talent in a methodical and efficient way and ultimately the top! We are a company that can take over your advertising at any stage whether your business or your personal development. Based on your goal today, we build tomorrow!'
+                        })}
+                    </div>
+
+                    <div className="pt-5">
+                        {t({
+                            id: 'AboutUs.textBlock.3',
+                            message:
+                                'Our goal is to promote your idea in an original, specialized or less complicated way that inspires the buyer or follower to buy from you or travel with you in the online world. Our specialty is PR & communication strategy, influencer marketing, business marketing, brand development & ideation, event management, social media management, sponsorships.'
+                        })}
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

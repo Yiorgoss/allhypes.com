@@ -9,7 +9,6 @@ const mainLayout = ({
     const NAVLINKS = [
         { title: 'Home', path: '/' },
         { title: 'About Us', path: '/about-us' },
-        { title: 'Services', path: '/services' },
         { title: 'Contact', path: '/contact' },
     ];
 
@@ -19,6 +18,7 @@ const mainLayout = ({
             <main className="overflow-hidden">
                 {children}
             </main>
+
         </div>
     );
 };
