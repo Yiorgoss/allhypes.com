@@ -40,7 +40,7 @@ const AboutUs = () => {
                 />
             </Head>
 
-            <div className="container mx-auto mt-[100px]">
+            <div className="container mx-auto mt-[130px] mb-[70px] md:mt-[100px] md:mb-[100px]">
                 <h1 className="py-10 text-center text-4xl font-semibold">
                     {t({ id: '', message: 'WE ARE THE ALL HYPES AGENCY' })}
                 </h1>

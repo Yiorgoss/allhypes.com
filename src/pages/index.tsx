@@ -124,7 +124,6 @@ const Home = ({}) => {
 Home.getLayout = function getLayout(page: ReactElement) {
     return (
         <div className="">
-            <div className="">211 015 43 31</div>
             <MainLayout>{page}</MainLayout>
         </div>
     );

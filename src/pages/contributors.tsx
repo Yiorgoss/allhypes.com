@@ -47,7 +47,7 @@ const Contributors = () => {
         <h1 className="py-10 text-center text-4xl font-semibold">
         Our Contributors
         </h1>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-3">
         {contributorsList.map(({ title, src }, index) => (
             <div className="mx-auto" key={index}>
                 <div className="relative h-[150px] w-[300px] bg-black">

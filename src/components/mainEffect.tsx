@@ -46,12 +46,12 @@ const Title = ({
 }) => {
     return (
         <div
-            className="w-full text-center tracking-wider md:w-fit md:pl-10"
+            className="w-full pt-6 text-center tracking-wider md:w-fit md:pl-10"
             onMouseEnter={() => setRotation(index)}
             onMouseLeave={() => setIndex(-1)}
         >
             <Link href={href}>
-                <h1 className="block border-none text-[6vw] leading-[1.25] hover:text-secondary ">
+                <h1 className="block border-none text-2xl md:text-[6vw] leading-[1.25] hover:text-secondary ">
                     {title}
                 </h1>
             </Link>
@@ -96,7 +96,7 @@ const MainEffect = ({
     };
     return (
         <div className="z-20 bg-primary pt-[100px]">
-            <div className="relative z-20 block pb-[10vh] text-secondary hover:text-[#bababa]">
+            <div className="relative z-20 block pt-20 md:pt-0 pb-[10vh] text-secondary hover:text-[#bababa]">
                 {effectData.map(({ title, href }, i) => (
                     <Title
                         title={title}

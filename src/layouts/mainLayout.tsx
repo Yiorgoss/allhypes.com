@@ -1,5 +1,6 @@
 import { ReactElement } from 'react';
 import Header from '@/components/header';
+import Footer from '@/components/footer'
 
 const mainLayout = ({
     children
@@ -19,6 +20,7 @@ const mainLayout = ({
                 {children}
             </main>
 
+            <Footer navLinks={NAVLINKS}/>
         </div>
     );
 };
