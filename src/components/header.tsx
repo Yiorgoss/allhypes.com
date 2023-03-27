@@ -33,55 +33,43 @@ const Header = ({
             document.removeEventListener('mousedown', handleClickOutside);
         };
     }, [active]);
+
     return (
-        <div className="absolute top-0 z-50 grid h-[100px] w-full grid-cols-3 bg-transparent text-2xl">
+        <div className="fixed top-0 z-40 grid h-[100px] w-full grid-cols-3 justify-between bg-primary md:absolute md:bg-transparent">
             <Link className="w-fit" href="/">
-                <div className="relative ml-5 md:ml-10 h-[100px] w-[100px] ">
+                <div className="relative ml-5 h-[100px] w-[100px] md:ml-10 ">
                     <Image src="/media/logo.png" alt="logo" fill />
                 </div>
             </Link>
             <div
                 className="col-span-2 my-auto mr-10 ml-auto md:hidden "
-                onClick={() => setActive(!active)}
+                onClick={() => setActive(true)}
             >
                 <RxHamburgerMenu className="h-10 w-10 cursor-pointer" />
             </div>
             <div
-                className={`col-span-2 mx-auto my-auto ${
+                className={`col-span-full h-screen w-screen md:col-span-2 md:h-full md:w-full  ${
                     active
-                        ? 'fixed z-40 h-screen w-screen bg-slate-800/40'
+                        ? 'mt-[-100px] bg-zinc-400/50 md:mt-0 md:bg-transparent'
                         : 'hidden md:block'
                 } `}
             >
                 <ul
-                    className={`${
-                        active
-                            ? 'fixed z-40 my-auto flex h-screen w-8/12 flex-col items-center justify-center gap-2 bg-primary'
-                            : 'hidden'
-                    } mr-auto md:block md:flex`}
                     ref={node}
+                    className="z-40 flex h-screen w-2/3 flex-col items-center justify-center bg-primary md:h-full md:w-full md:flex-row md:justify-end md:bg-transparent"
                 >
-                    <li className="h-[100px] w-[100px]">
-                        <Link
-                            className="fixed h-[100px] w-[100px]"
-                            href="/"
-                        >
-                            <Image src="/media/logo.png" alt="logo" fill />
-                        </Link>
-                    </li>
-                    <li className="mr-3 mt-2 inline inline p-2">
+                    <li className="mr-3 inline p-2">
                         <LangSwitcher />
                     </li>
 
                     {navLinks.map((link, i) => (
                         <li
-                            className="mr-10 mt-2 inline p-2 text-xl font-light"
+                            className="mr-10 inline w-fit p-2 text-xl font-light"
                             key={i}
-                            onClick={() => setActive(false)}
                         >
                             <ActiveLink
                                 activeClassName="font-semibold"
-                                className="h-full w-full p-2 "
+                                className=""
                                 href={link.path}
                             >
                                 {link.title}
@@ -95,3 +83,7 @@ const Header = ({
 };
 
 export default Header;
+
+/*
+
+ */

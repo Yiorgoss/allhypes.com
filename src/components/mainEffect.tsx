@@ -88,7 +88,6 @@ const MainEffect = ({
         const newRotation =
             rotationArr[Math.floor(Math.random() * rotationArr.length)];
         //Math.random() * 7 * Math.round(Math.random() ? 1 : -1);
-        console.log(newRotation);
         const tempState = [...rotation];
         tempState[itemIndex] = newRotation;
         setRotation(tempState);
