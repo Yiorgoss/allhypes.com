@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/about-us.tsx:44
+#: src/pages/about-us.tsx:45
 msgid ""
 msgstr ""
 
@@ -25,23 +25,23 @@ msgstr "Όσα εσένα σου φαίνονται προκλήσεις και 
 msgid "AboutUs.head.title"
 msgstr "Εμείς δεν προσπαθούμε…επιτυγχάνουμε !"
 
-#: src/pages/about-us.tsx:49
+#: src/pages/about-us.tsx:50
 msgid "AboutUs.textBlock.1"
 msgstr "Η ALL HYPES είναι μία δυναμική, ενεργητική διαφημιστική εταιρεία διεθνής εμβέλειας. Δημιουργώντας ένα περιβάλλον συνεργασίας φιλικό αλλά και ταυτόχρονα επαγγελματικό, χτίζουμε σχέσεις εμπιστοσύνης και εξέλιξης με τους πελάτες μας."
 
-#: src/pages/about-us.tsx:56
+#: src/pages/about-us.tsx:57
 msgid "AboutUs.textBlock.2"
 msgstr "Στην εποχή του Generation Z ερχόμαστε να δώσουμε την ευκαιρία τόσο σε επιχειρήσεις όσο και σε μεμονωμένα πρόσωπα να αναδείξουν το προιόν ή το ταλέντο τους με τρόπο μεθοδικό και αποτελεσματικό και απώτερο σκοπό την κορυφή! Είμαστε μία εταιρεία που μπορεί να αναλάβει την διαφήμιση σας σε οποιοδήποτε στάδιο και αν βρίσκεται η επιχείρηση σας ή η προσωπική σας εξέλιξη. Με βασικό γνώμονα του στόχου σας σήμερα χτίζουμε το αύριο !"
 
-#: src/pages/about-us.tsx:64
+#: src/pages/about-us.tsx:65
 msgid "AboutUs.textBlock.3"
 msgstr "Στόχος μας είναι να προωθήσουμε την ιδέα σας με έναν τρόπο πρωτότυπο, εξειδικευμένο η λιγότερο πολύπλοκο που να εμπνέει τον αγοραστή ή ακόλουθο να αγοράσει από εσάς ή να ταξιδέψει μαζί σας στον κόσμο του διαδικτύου. Ειδικότητα μας είναι το PR & communication strategy, influencer marketing, business marketing, brand development & ideation, event management, social media management, sponsorships."
 
-#: src/pages/contact.tsx:15
+#: src/pages/contact.tsx:13
 msgid "Contact.head.title"
 msgstr "All Hypes means YOU !"
 
-#: src/pages/contact.tsx:22
+#: src/pages/contact.tsx:20
 msgid "Contact.meta.description"
 msgstr "Στην All Hypes τα πάντα είσαι εσύ ! Η 360ο εμπειρία μας θα σε κάνει “καπετάνιο” στην δική σου καριέρα"
 
@@ -93,42 +93,42 @@ msgstr "Διαχείριση Φήμης"
 msgid "Home.title.whoAreWe"
 msgstr "Ποιοι είμαστε"
 
-#: src/pages/services/index.tsx:53
+#: src/pages/services/index.tsx:51
 msgid "Services.head.meta.description"
 msgstr "Το να φτάσεις την κορυφή δεν είναι κάτι δύσκολο! Δύσκολο είναι να μένεις στην κορυφή και εδώ έρχεται η All Hypes !"
 
-#: src/pages/services/index.tsx:45
+#: src/pages/services/index.tsx:44
 msgid "Services.head.title"
 msgstr "All Hypes means always being on top!"
 
 #: src/pages/talent/index.tsx:71
 msgid "Talent.head.meta.description"
-msgstr ""
+msgstr "Στο All Hype έχουμε τους ανθρώπους και τις γνώσεις για να είμαστε πάντα στην κορυφή."
 
 #: src/pages/talent/index.tsx:63
 msgid "Talent.head.title"
-msgstr ""
+msgstr "Το θέμα είναι να ξέρεις πώς να τα κάνεις όλα Όλα Hypes!"
 
 #: src/components/contactForm.tsx:51
 msgid "contactForm.input.email"
-msgstr ""
+msgstr "Email"
 
 #: src/components/contactForm.tsx:59
 msgid "contactForm.input.message"
-msgstr ""
+msgstr "μήνυμα για εμάς"
 
 #: src/components/contactForm.tsx:35
 msgid "contactForm.input.name"
-msgstr ""
+msgstr "όνομα"
 
 #: src/components/contactForm.tsx:43
 msgid "contactForm.input.number"
-msgstr ""
+msgstr "τηλέφωνο"
 
 #: src/components/contactForm.tsx:70
 msgid "contactForm.input.reset"
-msgstr ""
+msgstr "επαναφορ"
 
 #: src/components/contactForm.tsx:74
 msgid "contactForm.input.submit"
-msgstr ""
+msgstr "υποβάλλουν"

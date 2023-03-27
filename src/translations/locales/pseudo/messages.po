@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/pages/about-us.tsx:44
+#: src/pages/about-us.tsx:45
 msgid ""
 msgstr ""
 
@@ -25,23 +25,23 @@ msgstr ""
 msgid "AboutUs.head.title"
 msgstr ""
 
-#: src/pages/about-us.tsx:49
+#: src/pages/about-us.tsx:50
 msgid "AboutUs.textBlock.1"
 msgstr ""
 
-#: src/pages/about-us.tsx:56
+#: src/pages/about-us.tsx:57
 msgid "AboutUs.textBlock.2"
 msgstr ""
 
-#: src/pages/about-us.tsx:64
+#: src/pages/about-us.tsx:65
 msgid "AboutUs.textBlock.3"
 msgstr ""
 
-#: src/pages/contact.tsx:15
+#: src/pages/contact.tsx:13
 msgid "Contact.head.title"
 msgstr ""
 
-#: src/pages/contact.tsx:22
+#: src/pages/contact.tsx:20
 msgid "Contact.meta.description"
 msgstr ""
 
@@ -93,11 +93,11 @@ msgstr ""
 msgid "Home.title.whoAreWe"
 msgstr ""
 
-#: src/pages/services/index.tsx:53
+#: src/pages/services/index.tsx:51
 msgid "Services.head.meta.description"
 msgstr ""
 
-#: src/pages/services/index.tsx:45
+#: src/pages/services/index.tsx:44
 msgid "Services.head.title"
 msgstr ""
 

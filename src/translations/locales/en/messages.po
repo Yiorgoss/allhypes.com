@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#: src/pages/about-us.tsx:44
+#: src/pages/about-us.tsx:45
 msgid ""
 msgstr "WE ARE THE ALL HYPES AGENCY"
 
@@ -23,23 +23,23 @@ msgstr "AboutUs.head.meta.description"
 msgid "AboutUs.head.title"
 msgstr "AboutUs.head.title"
 
-#: src/pages/about-us.tsx:49
+#: src/pages/about-us.tsx:50
 msgid "AboutUs.textBlock.1"
 msgstr "Η …… είναι μία δυναμική, ενεργητική διαφημιστική εταιρεία διεθνής εμβέλειας. Δημιουργώντας ένα περιβάλλον συνεργασίας φιλικό αλλά και ταυτόχρονα επαγγελματικό, χτίζουμε σχέσεις εμπιστοσύνης και εξέλιξης με τους πελάτες μας."
 
-#: src/pages/about-us.tsx:56
+#: src/pages/about-us.tsx:57
 msgid "AboutUs.textBlock.2"
 msgstr "Στην εποχή του Generation Z ερχόμαστε να δώσουμε την ευκαιρία τόσο σε επιχειρήσεις όσο και σε μεμονωμένα πρόσωπα να αναδείξουν το προιόν ή το ταλέντο τους με τρόπο μεθοδικό και αποτελεσματικό και απώτερο σκοπό την κορυφή! Είμαστε μία εταιρεία που μπορεί να αναλάβει την διαφήμιση σας σε οποιοδήποτε στάδιο και αν βρίσκεται η επιχείρηση σας ή η προσωπική σας εξέλιξη. Με βασικό γνώμονα του στόχου σας σήμερα χτίζουμε το αύριο !"
 
-#: src/pages/about-us.tsx:64
+#: src/pages/about-us.tsx:65
 msgid "AboutUs.textBlock.3"
 msgstr "Στόχος μας είναι να προωθήσουμε την ιδέα σας με έναν τρόπο πρωτότυπο, εξειδικευμένο η λιγότερο πολύπλοκο που να εμπνέει τον αγοραστή ή ακόλουθο να αγοράσει από εσάς ή να ταξιδέψει μαζί σας στον κόσμο του διαδικτύου. Ειδικότητα μας είναι το PR & communication strategy, influencer marketing, business marketing, brand development & ideation, event management, social media management, sponsorships."
 
-#: src/pages/contact.tsx:15
+#: src/pages/contact.tsx:13
 msgid "Contact.head.title"
 msgstr "Contact.head.title"
 
-#: src/pages/contact.tsx:22
+#: src/pages/contact.tsx:20
 msgid "Contact.meta.description"
 msgstr "Contact.meta.description"
 
@@ -91,11 +91,11 @@ msgstr "Reputation Management"
 msgid "Home.title.whoAreWe"
 msgstr "Who we are ?"
 
-#: src/pages/services/index.tsx:53
+#: src/pages/services/index.tsx:51
 msgid "Services.head.meta.description"
 msgstr "Reaching the top is not difficult! It's hard to stay on top and here comes All Hypes!"
 
-#: src/pages/services/index.tsx:45
+#: src/pages/services/index.tsx:44
 msgid "Services.head.title"
 msgstr "All Hypes means always being on top!"
 
