@@ -1,15 +1,11 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language: \n"
-"Language-Team: \n"
-"Content-Type: \n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"POT-Creation-Date: 2023-03-27 19:40+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
 
 #: src/pages/about-us.tsx:45
 msgid ""
@@ -17,39 +13,39 @@ msgstr "WE ARE THE ALL HYPES AGENCY"
 
 #: src/pages/about-us.tsx:35
 msgid "AboutUs.head.meta.description"
-msgstr "AboutUs.head.meta.description"
+msgstr "What seems like challenges and trials to you seems easy to us!"
 
 #: src/pages/about-us.tsx:28
 msgid "AboutUs.head.title"
-msgstr "AboutUs.head.title"
+msgstr "We don't try...we succeed!"
 
 #: src/pages/about-us.tsx:50
 msgid "AboutUs.textBlock.1"
-msgstr "Η …… είναι μία δυναμική, ενεργητική διαφημιστική εταιρεία διεθνής εμβέλειας. Δημιουργώντας ένα περιβάλλον συνεργασίας φιλικό αλλά και ταυτόχρονα επαγγελματικό, χτίζουμε σχέσεις εμπιστοσύνης και εξέλιξης με τους πελάτες μας."
+msgstr "ALL HYPES is a dynamic, active advertising company of international scope. By creating a friendly but at the same time professional cooperation environment, we build relationships of trust and development with our clients."
 
 #: src/pages/about-us.tsx:57
 msgid "AboutUs.textBlock.2"
-msgstr "Στην εποχή του Generation Z ερχόμαστε να δώσουμε την ευκαιρία τόσο σε επιχειρήσεις όσο και σε μεμονωμένα πρόσωπα να αναδείξουν το προιόν ή το ταλέντο τους με τρόπο μεθοδικό και αποτελεσματικό και απώτερο σκοπό την κορυφή! Είμαστε μία εταιρεία που μπορεί να αναλάβει την διαφήμιση σας σε οποιοδήποτε στάδιο και αν βρίσκεται η επιχείρηση σας ή η προσωπική σας εξέλιξη. Με βασικό γνώμονα του στόχου σας σήμερα χτίζουμε το αύριο !"
+msgstr "In the era of Generation Z, we come to give the opportunity to both businesses and individuals to showcase their product or talent in a methodical and efficient way and ultimately the top! We are a company that can take over your advertising at any stage whether your business or your personal development. Based on your goal today, we build tomorrow!"
 
 #: src/pages/about-us.tsx:65
 msgid "AboutUs.textBlock.3"
-msgstr "Στόχος μας είναι να προωθήσουμε την ιδέα σας με έναν τρόπο πρωτότυπο, εξειδικευμένο η λιγότερο πολύπλοκο που να εμπνέει τον αγοραστή ή ακόλουθο να αγοράσει από εσάς ή να ταξιδέψει μαζί σας στον κόσμο του διαδικτύου. Ειδικότητα μας είναι το PR & communication strategy, influencer marketing, business marketing, brand development & ideation, event management, social media management, sponsorships."
+msgstr "Our goal is to promote your idea in an original, specialized or less complicated way that inspires the buyer or follower to buy from you or travel with you in the online world. Our specialty is PR & communication strategy, influencer marketing, business marketing, brand development & ideation, event management, social media management, sponsorships."
 
 #: src/pages/contact.tsx:13
 msgid "Contact.head.title"
-msgstr "Contact.head.title"
+msgstr "All Hypes means YOU !"
 
 #: src/pages/contact.tsx:20
 msgid "Contact.meta.description"
-msgstr "Contact.meta.description"
+msgstr "At All Hypes everything is you! Our 360° experience will make you a \"captain\" in your own career"
 
 #: src/pages/contributors.tsx:39
 msgid "Contributors.head.meta.description"
-msgstr "Contributors.head.meta.description"
+msgstr "For us, you are the hero of real life, that's why for All Hypes, you are the protagonist!"
 
 #: src/pages/contributors.tsx:32
 msgid "Contributors.head.title"
-msgstr "Contributors.head.title"
+msgstr "In All Hypes you are the protagonist!"
 
 #: src/pages/index.tsx:114
 msgid "Home.head.meta.description"
@@ -75,10 +71,6 @@ msgstr "Contributors"
 msgid "Home.title.influencerManagement"
 msgstr "Influencer Management"
 
-#: src/pages/index.tsx:46
-#~ msgid "Home.title.ourServices"
-#~ msgstr "Our Services"
-
 #: src/pages/index.tsx:37
 msgid "Home.title.ourTalent"
 msgstr "Our Talent"
@@ -89,7 +81,7 @@ msgstr "Reputation Management"
 
 #: src/pages/index.tsx:27
 msgid "Home.title.whoAreWe"
-msgstr "Who we are ?"
+msgstr "Who we are?"
 
 #: src/pages/services/index.tsx:51
 msgid "Services.head.meta.description"
@@ -101,11 +93,11 @@ msgstr "All Hypes means always being on top!"
 
 #: src/pages/talent/index.tsx:71
 msgid "Talent.head.meta.description"
-msgstr "Talent.head.meta.description"
+msgstr "At All Hype we have the people and knowledge to always be on top."
 
 #: src/pages/talent/index.tsx:63
 msgid "Talent.head.title"
-msgstr "Talent.head.title"
+msgstr "The point is to know how to do it all All Hypes!"
 
 #: src/components/contactForm.tsx:51
 msgid "contactForm.input.email"

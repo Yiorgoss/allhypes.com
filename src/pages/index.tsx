@@ -106,14 +106,14 @@ const Home = ({}) => {
                 <title>
                     {t({
                         id: 'Home.head.title',
-                        message: ''
+                        message: 'The point is to know how to do it all All Hypes!'
                     })}
                 </title>
                 <meta
                     name="description"
                     content={t({
                         id: 'Home.head.meta.description',
-                        message: ''
+                        message: 'At All Hype we have the people and knowledge to always be on top.'
                     })}
                 />
             </Head>
