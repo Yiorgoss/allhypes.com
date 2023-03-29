@@ -21,9 +21,10 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 };
 const Contributors = () => {
     const contributorsList = [
-        { title: 'psdm', src: '/contributors/psdm.png' },
-        { title: 'eyephone', src: '/contributors/eyephone.png' },
-        { title: 'emove', src: '/contributors/emove.png' }
+        { title: 'Psdm', src: '/contributors/psdm.png', className: 'bg-black' },
+        { title: 'Eyephone', src: '/contributors/eyephone.png' },
+        { title: 'Emove', src: '/contributors/emove.png' },
+        { title: 'Glowking', src: '/contributors/glowking.png' }
     ];
     return (
         <>
@@ -35,7 +36,7 @@ const Contributors = () => {
                     })}
                 </title>
                 <meta
-                    name='description'
+                    name="description"
                     content={t({
                         id: 'Contributors.head.meta.description',
                         message:
@@ -44,21 +45,35 @@ const Contributors = () => {
                 />
             </Head>
 
-            <div className="container mx-auto mt-[100px] min-h-screen">
+            <div className="container mx-auto mb-[100px] mt-[100px] min-h-screen">
                 <h1 className="py-10 text-center text-4xl font-semibold">
                     Our Contributors
                 </h1>
-                <div className="grid grid-cols-1 md:grid-cols-3">
-                    {contributorsList.map(({ title, src }, index) => (
-                        <div className="mx-auto" key={index}>
-                            <div className="relative h-[150px] w-[300px] bg-black">
-                                <Image src={src} alt="" fill />
+                <div className="grid grid-cols-1 justify-center gap-6 md:grid-cols-2">
+                    {contributorsList.map(
+                        ({ title, src, className }, index) => (
+                            <div
+                                className={`${
+                                    index % 2 === 0 ? 'ml-auto' : 'mr-auto'
+                                }`}
+                                key={index}
+                            >
+                                <div
+                                    className={`relative h-[150px] w-[300px] ${className}`}
+                                >
+                                    <Image
+                                        className="object-contain"
+                                        src={src}
+                                        alt=""
+                                        fill
+                                    />
+                                </div>
+                                <h2 className="font-xl mt-2 text-center font-medium">
+                                    {title}
+                                </h2>
                             </div>
-                            <h2 className="font-xl text-center font-medium">
-                                {title}
-                            </h2>
-                        </div>
-                    ))}
+                        )
+                    )}
                 </div>
             </div>
         </>
