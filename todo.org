@@ -1,4 +1,7 @@
 * Inbox
+** TODO Add google analytics
+
+[[file:~/code/gikas/allhypes/src/pages/talent/form.tsx::errors.name ? 'outline outline-2 outline-red-500' : '']]
 ** TODO needs visibile errors and success on response ok
 
 [[file:~/code/gikas/allhypes/src/pages/talent/form.tsx::const res = await fetch('/api/form', {]]
