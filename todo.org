@@ -1,0 +1,10 @@
+* Inbox
+** TODO make emails Greek
+
+[[file:~/code/gikas/allhypes/src/pages/api/mailer.ts:://TODO: make emails greek]]
+** TODO handle the server side response iwth a green pop up
+
+[[file:~/code/gikas/allhypes/src/components/contactForm.tsx::};]]
+** TODO Red borders for error in submission
+
+[[file:~/code/gikas/allhypes/src/components/contactForm.tsx::};]]
