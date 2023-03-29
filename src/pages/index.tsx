@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import { GetServerSideProps, GetStaticProps } from 'next';
 import type { ReactElement } from 'react';
 
@@ -98,6 +98,18 @@ const Home = ({}) => {
                 height: 900,
                 width: 1100
             }
+        },
+        {
+            title: t({
+                id: 'Home.title.BecomeAMember',
+                message: 'Become A Member'
+            }),
+            href: '/talent/form',
+            imageData: {
+                url: '/media/contributors.jpeg',
+                height: 900,
+                width: 1100
+            }
         }
     ];
     return (
@@ -106,19 +118,23 @@ const Home = ({}) => {
                 <title>
                     {t({
                         id: 'Home.head.title',
-                        message: 'The point is to know how to do it all All Hypes!'
+                        message:
+                            'The point is to know how to do it all All Hypes!'
                     })}
                 </title>
                 <meta
                     name="description"
                     content={t({
                         id: 'Home.head.meta.description',
-                        message: 'At All Hype we have the people and knowledge to always be on top.'
+                        message:
+                            'At All Hype we have the people and knowledge to always be on top.'
                     })}
                 />
             </Head>
 
-            <MainEffect effectData={effectData} /></>)
+            <MainEffect effectData={effectData} />
+        </>
+    );
 };
 
 Home.getLayout = function getLayout(page: ReactElement) {

@@ -32,7 +32,7 @@ const ContactForm = () => {
             token: token,
             data: data
         };
-        const res = await fetch('/api/mailer', {
+        const res = await fetch('/api/contact', {
             method: 'POST',
             mode: 'cors',
             headers: {
@@ -52,7 +52,9 @@ const ContactForm = () => {
         <form noValidate onSubmit={handleSubmit(onSubmit, onError)}>
             <div className="grid w-full grid-cols-1 p-10 md:grid-cols-2">
                 <input
-                    className="text-md m-2 rounded-lg py-2 px-2 text-secondary "
+                    className={`text-md m-2 rounded-lg py-2 px-2 text-secondary ${
+                        errors.name ? 'outline outline-2 outline-red-500' : ''
+                    }`}
                     placeholder={t({
                         id: 'contactForm.input.name',
                         message: 'Full Name'
@@ -60,7 +62,9 @@ const ContactForm = () => {
                     {...register('name')}
                 />
                 <input
-                    className="text-md m-2 rounded-lg py-2 px-2 text-secondary "
+                    className={`text-md m-2 rounded-lg py-2 px-2 text-secondary ${
+                        errors.phone ? 'outline outline-2 outline-red-500' : ''
+                    } `}
                     placeholder={t({
                         id: 'contactForm.input.number',
                         message: 'Phone number'
@@ -68,7 +72,9 @@ const ContactForm = () => {
                     {...register('phone')}
                 />
                 <input
-                    className="text-md col-span-full m-2 rounded-lg py-2 px-2 text-secondary"
+                    className={`text-md col-span-full m-2 rounded-lg py-2 px-2 text-secondary ${
+                        errors.email ? 'outline outline-2 outline-red-500' : ''
+                    } `}
                     placeholder={t({
                         id: 'contactForm.input.email',
                         message: 'Email'

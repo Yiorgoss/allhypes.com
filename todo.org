@@ -1,7 +1,10 @@
 * Inbox
-** TODO make emails Greek
+** TODO needs visibile errors and success on response ok
 
+[[file:~/code/gikas/allhypes/src/pages/talent/form.tsx::const res = await fetch('/api/form', {]]
+** TODO make emails Greek
 [[file:~/code/gikas/allhypes/src/pages/api/mailer.ts:://TODO: make emails greek]]
+
 ** TODO handle the server side response iwth a green pop up
 
 [[file:~/code/gikas/allhypes/src/components/contactForm.tsx::};]]

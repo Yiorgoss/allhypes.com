@@ -50,7 +50,7 @@ const Header = ({
             <div
                 className={`col-span-full h-screen w-screen md:col-span-2 md:h-full md:w-full  ${
                     active
-                        ? 'mt-[-100px] bg-zinc-400/50 md:mt-0 md:bg-transparent'
+                        ? 'mt-[-100px] bg-zinc-600/50 md:mt-0 md:bg-transparent'
                         : 'hidden md:block'
                 } `}
             >
