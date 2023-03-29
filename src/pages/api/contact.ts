@@ -1,6 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import contactSchema from '@/utils/contactSchema';
-import Recaptcha from 'recaptcha';
 
 const mailer = require('@sendgrid/mail');
 
