@@ -25,12 +25,12 @@ const Footer = ({
             <div className="flex w-full justify-center gap-10 text-white">
                 <div className="rounded-full bg-black p-2 hover:scale-110">
                     <Link href="https://www.tiktok.com/@all_hypes">
-                        <FaInstagram className="h-6 w-6" />
+                        <FaTiktok className="h-6 w-6" />
                     </Link>
                 </div>
                 <div className="rounded-full bg-black p-2 hover:scale-110">
                     <Link href="https://www.instagram.com/allhypes_gr/">
-                        <FaTiktok className="h-6 w-6" />
+                        <FaInstagram className="h-6 w-6" />
                     </Link>
                 </div>
                 <div className="rounded-full bg-black p-2 hover:scale-110">
