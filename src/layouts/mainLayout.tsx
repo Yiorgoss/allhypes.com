@@ -16,7 +16,7 @@ const mainLayout = ({
     return (
         <div className="text-secondary bg-primary z-20">
             <Header navLinks={NAVLINKS} />
-            <main className="overflow-hidden">
+            <main className="pt-[100px] overflow-hidden">
                 {children}
             </main>
 

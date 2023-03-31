@@ -25,7 +25,7 @@ const Contact = () => {
                 />
             </Head>
 
-            <div className="container mx-auto mt-[100px]">
+            <div className="container mx-auto ">
                 <h1 className=" py-10 text-center text-3xl font-semibold tracking-wider text-secondary">
                     {t({ id: 'Contact.title', message: 'Contact Us' })}
                 </h1>

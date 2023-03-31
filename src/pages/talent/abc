@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Head from 'next/head';
 import { GetStaticProps, GetServerSideProps } from 'next';
 import { ReactElement } from 'react';
@@ -27,32 +28,32 @@ const Talent = () => {
         {
             title: 'Event Management',
             image: '/media/talent_image_1.jpeg',
-            content: ''
+            path: '/talent/event-management'
         },
         {
             title: 'Public Relations',
             image: '/media/talent_image_2.jpeg',
-            content: ''
+            path: '/talent/public-relations'
         },
         {
             title: 'Influencer Marketing',
             image: '/media/talent_image_3.jpeg',
-            content: ''
+            path: '/talent/influencer-management'
         },
         {
             title: 'Personal Management',
             image: '/media/talent_image_4.jpeg',
-            content: ''
+            path: '/talent/personal-management'
         },
         {
             title: 'Business Management',
             image: '/media/talent_image_5.jpeg',
-            content: ''
+            path: '/talent/business-management'
         },
         {
             title: 'Marketing and Communications Strategist',
             image: '/media/talent.jpeg',
-            content: ''
+            path: '/talent/marketing-communication-strategist'
         }
     ];
 
@@ -79,10 +80,12 @@ const Talent = () => {
                 <h1 className="py-10 text-center text-4xl font-semibold">
                     Our Talent
                 </h1>
-                {talentData.map(({ title, image, content }, i) => (
-                    <div className="mt-[50px] md:mt-0" key={i}>
-                        <BannerHeader title={title} image={image} />
+                {talentData.map(({ title, image, path }, i) => (
+                    <Link href={path} key={i}>
+                    <div className="bg-secondary text-primary h-[200px] text-2xl hover:text-6xl transition duration duration-300 transition-[font-size] my-10 flex justify-center items-center" >
+                        {title}
                     </div>
+                    </Link>
                 ))}
             </div>
         </>

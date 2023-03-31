@@ -36,8 +36,8 @@ const Header = ({
 
     return (
         <div className="fixed top-0 z-40 grid h-[100px] w-full grid-cols-3 justify-between bg-primary md:absolute md:bg-transparent">
-            <Link className="w-fit" href="/">
-                <div className="relative ml-5 h-[100px] w-[100px] md:ml-10 ">
+            <Link className="my-auto w-fit" href="/">
+                <div className="relative ml-5 h-[80px] w-[80px] md:ml-10 ">
                     <Image src="/media/logo.png" alt="logo" fill />
                 </div>
             </Link>

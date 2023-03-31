@@ -19,9 +19,11 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
         }
     };
 };
-const Contributors = () => {
-    const contributorsList = [
-        { title: 'Psdm', src: '/contributors/psdm.png', className: 'bg-black' },
+const Clients = () => {
+    const clientsList = [
+        { title: 'Eyephone', src: '/contributors/eyephone.png' },
+        { title: 'Emove', src: '/contributors/emove.png' },
+        { title: 'Glowking', src: '/contributors/glowking.png' }
     ];
     return (
         <>
@@ -47,8 +49,8 @@ const Contributors = () => {
                     Our Contributors
                 </h1>
                 <div className="grid grid-cols-1 justify-center gap-6 md:grid-cols-2">
-                    {contributorsList.map(
-                        ({ title, src, className }, index) => (
+                    {clientsList.map(
+                        ({ title, src }, index) => (
                             <div
                                 className={`${
                                     index % 2 === 0 ? 'ml-auto' : 'mr-auto'
@@ -56,7 +58,7 @@ const Contributors = () => {
                                 key={index}
                             >
                                 <div
-                                    className={`relative h-[150px] w-[300px] ${className}`}
+                                    className={`relative h-[150px] w-[300px] `}
                                 >
                                     <Image
                                         className="object-contain"
@@ -77,8 +79,8 @@ const Contributors = () => {
     );
 };
 
-Contributors.getLayout = function getLayout(page: ReactElement) {
+Clients.getLayout = function getLayout(page: ReactElement) {
     return <MainLayout>{page}</MainLayout>;
 };
 
-export default Contributors;
+export default Clients;

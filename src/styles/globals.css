@@ -4,7 +4,7 @@
 
 @layer base {
     html {
-        font-family: Oswald, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
-            Roboto, Helvetica Neue, Arial, Noto Sans;
+        font-family:  Source Sans Pro, Oswald, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+            Roboto, Helvetica Neue, Arial;
     }
 }

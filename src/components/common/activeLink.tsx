@@ -6,12 +6,14 @@ const ActiveLink = ({
     href,
     className,
     activeClassName,
-    children
+    children,
+    scroll,
 }: {
     href: string;
     className?: string;
     activeClassName?: string;
     children: ReactElement | ReactElement | string;
+    scroll?: boolean
 }) => {
     const { asPath } = useRouter();
     const active = asPath === href;
@@ -19,6 +21,7 @@ const ActiveLink = ({
         <Link
             href={href}
             className={`${className} ${active && activeClassName}`}
+            scroll={scroll}
         >
             {children}
         </Link>

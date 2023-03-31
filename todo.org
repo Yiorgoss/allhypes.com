@@ -1,4 +1,7 @@
 * Inbox
+** TODO add a back button to previous heirarchy
+
+[[file:~/code/gikas/allhypes/src/components/sidebar.tsx::{navLinks.map(({title, path}, i) => (]]
 ** TODO Add google analytics
 
 [[file:~/code/gikas/allhypes/src/pages/talent/form.tsx::errors.name ? 'outline outline-2 outline-red-500' : '']]

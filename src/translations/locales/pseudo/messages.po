@@ -45,20 +45,30 @@ msgstr ""
 msgid "Contact.meta.description"
 msgstr ""
 
-#: src/pages/contributors.tsx:39
+#: src/pages/contact.tsx:30
+msgid "Contact.title"
+msgstr ""
+
+#: src/pages/clients.tsx:39
+#: src/pages/contributors.tsx:37
 msgid "Contributors.head.meta.description"
 msgstr ""
 
-#: src/pages/contributors.tsx:32
+#: src/pages/clients.tsx:32
+#: src/pages/contributors.tsx:30
 msgid "Contributors.head.title"
 msgstr ""
 
-#: src/pages/index.tsx:114
+#: src/pages/index.tsx:127
 msgid "Home.head.meta.description"
 msgstr ""
 
-#: src/pages/index.tsx:107
+#: src/pages/index.tsx:119
 msgid "Home.head.title"
+msgstr ""
+
+#: src/pages/index.tsx:103
+msgid "Home.title.BecomeAMember"
 msgstr ""
 
 #: src/pages/index.tsx:70
@@ -93,42 +103,300 @@ msgstr ""
 msgid "Home.title.whoAreWe"
 msgstr ""
 
-#: src/pages/services/index.tsx:51
+#: src/pages/services/sponsorships.tsx:16
+msgid "ServiceSponsorships.desc1"
+msgstr ""
+
+#: src/pages/services/sponsorships.tsx:13
+msgid "ServiceSponsorships.title"
+msgstr ""
+
+#: src/pages/services.tsx:39
 msgid "Services.head.meta.description"
 msgstr ""
 
-#: src/pages/services/index.tsx:44
+#: src/pages/services.tsx:32
 msgid "Services.head.title"
 msgstr ""
 
-#: src/pages/talent/index.tsx:71
+#: src/pages/services/brand-development-ideation.tsx:16
+msgid "ServicesBrandDevelopmentIdeation.desc1"
+msgstr ""
+
+#: src/pages/services/brand-development-ideation.tsx:13
+msgid "ServicesBrandDevelopmentIdeation.title"
+msgstr ""
+
+#: src/pages/services/business-marketing.tsx:16
+msgid "ServicesBusinessMarketing.desc1"
+msgstr ""
+
+#: src/pages/services/business-marketing.tsx:13
+msgid "ServicesBusinessMarketing.title"
+msgstr ""
+
+#: src/pages/services/custom-services.tsx:15
+msgid "ServicesCustomServices.desc1"
+msgstr ""
+
+#: src/pages/services/custom-services.tsx:12
+msgid "ServicesCustomServices.title"
+msgstr ""
+
+#: src/pages/services/event-organizations-management.tsx:15
+msgid "ServicesEventOrganizationManagement.desc1"
+msgstr ""
+
+#: src/pages/services/event-organizations-management.tsx:12
+msgid "ServicesEventOrganizationManagement.title"
+msgstr ""
+
+#: src/pages/services/google-ad-campaigns.tsx:16
+msgid "ServicesGoogleAdCampaigns.desc1"
+msgstr ""
+
+#: src/pages/services/google-ad-campaigns.tsx:13
+msgid "ServicesGoogleAdCampaigns.title"
+msgstr ""
+
+#: src/pages/services/influencer-marketing.tsx:17
+msgid "ServicesInfluencerMarketing.desc1"
+msgstr ""
+
+#: src/pages/services/influencer-marketing.tsx:20
+msgid "ServicesInfluencerMarketing.desc2"
+msgstr ""
+
+#: src/pages/services/influencer-marketing.tsx:23
+msgid "ServicesInfluencerMarketing.desc3"
+msgstr ""
+
+#: src/pages/services/influencer-marketing.tsx:13
+msgid "ServicesInfluencerMarketing.title"
+msgstr ""
+
+#: src/pages/services/pr-communication-strategy.tsx:16
+msgid "ServicesPrCommunicationStrategy.desc1"
+msgstr ""
+
+#: src/pages/services/influencer-marketing.tsx:20
+#~ msgid "ServicesPrCommunicationStrategy.desc2"
+#~ msgstr ""
+
+#: src/pages/services/influencer-marketing.tsx:23
+#~ msgid "ServicesPrCommunicationStrategy.desc3"
+#~ msgstr ""
+
+#: src/pages/services/pr-communication-strategy.tsx:12
+msgid "ServicesPrCommunicationStrategy.title"
+msgstr ""
+
+#: src/pages/services/rebranding.tsx:16
+msgid "ServicesRebranding.desc1"
+msgstr ""
+
+#: src/pages/services/rebranding.tsx:13
+msgid "ServicesRebranding.title"
+msgstr ""
+
+#: src/layouts/servicesSidebarLayout.tsx:70
+msgid "ServicesSidebarLayout.10"
+msgstr ""
+
+#: src/layouts/servicesSidebarLayout.tsx:74
+msgid "ServicesSidebarLayout.11"
+msgstr ""
+
+#: src/layouts/servicesSidebarLayout.tsx:20
+msgid "ServicesSidebarLayout.2"
+msgstr ""
+
+#: src/layouts/servicesSidebarLayout.tsx:27
+msgid "ServicesSidebarLayout.3"
+msgstr ""
+
+#: src/layouts/servicesSidebarLayout.tsx:31
+msgid "ServicesSidebarLayout.4"
+msgstr ""
+
+#: src/layouts/servicesSidebarLayout.tsx:38
+msgid "ServicesSidebarLayout.5"
+msgstr ""
+
+#: src/layouts/servicesSidebarLayout.tsx:45
+msgid "ServicesSidebarLayout.6"
+msgstr ""
+
+#: src/layouts/servicesSidebarLayout.tsx:52
+msgid "ServicesSidebarLayout.7"
+msgstr ""
+
+#: src/layouts/servicesSidebarLayout.tsx:56
+msgid "ServicesSidebarLayout.8"
+msgstr ""
+
+#: src/layouts/servicesSidebarLayout.tsx:63
+msgid "ServicesSidebarLayout.9"
+msgstr ""
+
+#: src/layouts/servicesSidebarLayout.tsx:13
+msgid "ServicesSidebarlayout.1"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:61
+#~ msgid "ServicesWebsiteCreationHosting"
+#~ msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:21
+msgid "ServicesWebsiteCreationHosting.desc1.1"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:24
+msgid "ServicesWebsiteCreationHosting.desc1.2"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:27
+msgid "ServicesWebsiteCreationHosting.desc1.3"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:30
+msgid "ServicesWebsiteCreationHosting.desc1.4"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:35
+msgid "ServicesWebsiteCreationHosting.desc2"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:38
+msgid "ServicesWebsiteCreationHosting.desc3"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:42
+msgid "ServicesWebsiteCreationHosting.desc3.1"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:45
+msgid "ServicesWebsiteCreationHosting.desc3.2"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:48
+msgid "ServicesWebsiteCreationHosting.desc3.3"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:51
+msgid "ServicesWebsiteCreationHosting.desc3.4"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:54
+msgid "ServicesWebsiteCreationHosting.desc3.5"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:57
+msgid "ServicesWebsiteCreationHosting.desc3.6"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:62
+msgid "ServicesWebsiteCreationHosting.desc4"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:16
+msgid "ServicesWebsiteCreationHosting.h3"
+msgstr ""
+
+#: src/pages/services/website-creation-hosting.tsx:12
+msgid "ServicesWebsiteCreationHosting.title"
+msgstr ""
+
+#: src/pages/talent.tsx:72
 msgid "Talent.head.meta.description"
 msgstr ""
 
-#: src/pages/talent/index.tsx:63
+#: src/pages/talent.tsx:64
 msgid "Talent.head.title"
 msgstr ""
 
-#: src/components/contactForm.tsx:51
+#: src/pages/talent/event-management.tsx:18
+msgid "TalentEventManagement.desc1"
+msgstr ""
+
+#: src/pages/talent/event-management.tsx:27
+msgid "TalentEventManagement.desc2"
+msgstr ""
+
+#: src/pages/talent/event-management.tsx:11
+msgid "TalentEventManagement.title"
+msgstr ""
+
+#: src/pages/talent/influencer-management.tsx:16
+msgid "TalentInfluencerManagement.desc1"
+msgstr ""
+
+#: src/pages/talent/influencer-management.tsx:13
+msgid "TalentInfluencerManagement.title"
+msgstr ""
+
+#: src/pages/talent/marketing-communication-strategist.tsx:16
+msgid "TalentMarketingCommunicationStrategist.desc1"
+msgstr ""
+
+#: src/pages/talent/marketing-communication-strategist.tsx:13
+msgid "TalentMarketingCommunicationStrategist.title"
+msgstr ""
+
+#: src/pages/talent/personal-management.tsx:16
+msgid "TalentPersonalManagement.desc1"
+msgstr ""
+
+#: src/pages/talent/personal-management.tsx:13
+msgid "TalentPersonalManagement.title"
+msgstr ""
+
+#: src/layouts/talentSidebarLayout.tsx:14
+msgid "TalentSidebarLayout.1"
+msgstr ""
+
+#: src/layouts/talentSidebarLayout.tsx:18
+msgid "TalentSidebarLayout.2"
+msgstr ""
+
+#: src/layouts/talentSidebarLayout.tsx:22
+msgid "TalentSidebarLayout.3"
+msgstr ""
+
+#: src/layouts/talentSidebarLayout.tsx:26
+msgid "TalentSidebarLayout.4"
+msgstr ""
+
+#: src/layouts/talentSidebarLayout.tsx:30
+msgid "TalentSidebarLayout.5"
+msgstr ""
+
+#: src/layouts/talentSidebarLayout.tsx:34
+msgid "TalentSidebarLayout.6"
+msgstr ""
+
+#: src/components/contactForm.tsx:78
 msgid "contactForm.input.email"
 msgstr ""
 
-#: src/components/contactForm.tsx:59
+#: src/components/contactForm.tsx:86
 msgid "contactForm.input.message"
 msgstr ""
 
-#: src/components/contactForm.tsx:35
+#: src/components/contactForm.tsx:58
 msgid "contactForm.input.name"
 msgstr ""
 
-#: src/components/contactForm.tsx:43
+#: src/components/contactForm.tsx:68
 msgid "contactForm.input.number"
 msgstr ""
 
-#: src/components/contactForm.tsx:70
+#: src/components/contactForm.tsx:104
+#: src/pages/talent/form.tsx:142
 msgid "contactForm.input.reset"
 msgstr ""
 
-#: src/components/contactForm.tsx:74
+#: src/components/contactForm.tsx:108
+#: src/pages/talent/form.tsx:149
 msgid "contactForm.input.submit"
 msgstr ""

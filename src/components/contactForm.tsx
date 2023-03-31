@@ -89,7 +89,7 @@ const ContactForm = () => {
                     })}
                     {...register('message')}
                 />
-                <div className="col-span-full flex items-end justify-end ">
+                <div className="col-span-full flex flex-col items-end justify-end md:flex-row ">
                     <div className="">
                         <ReCAPTCHA
                             sitekey="6Lf2_DslAAAAAGEiNhA_60kwofaYWGahDYVJx5sn"

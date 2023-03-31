@@ -47,7 +47,7 @@ const Home = ({}) => {
                 id: 'Home.title.reputationManagement',
                 message: 'Reputation Management'
             }),
-            href: '/services',
+            href: '/services/',
             imageData: {
                 url: '/media/reputation.jpeg',
                 height: 800,
@@ -80,7 +80,7 @@ const Home = ({}) => {
         },
         {
             title: t({ id: 'Home.title.clients', message: 'Clients' }),
-            href: '/contributors',
+            href: '/clients',
             imageData: {
                 url: '/media/clients.jpeg',
                 height: 900,
