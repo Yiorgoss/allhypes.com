@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Head from 'next/head';
-import { GetStaticProps, GetServerSideProps } from 'next';
 import { ReactElement } from 'react';
 
 import { t } from '@lingui/macro';
@@ -11,6 +10,7 @@ import MainLayout from '@/layouts/mainLayout';
 
 import { loadTranslation } from '@/utils/utils';
 
+import { GetStaticProps, GetServerSideProps } from 'next';
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const translation = await loadTranslation(
         ctx.locale!,

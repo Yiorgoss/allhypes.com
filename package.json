@@ -20,6 +20,7 @@
     "@types/react-google-recaptcha": "^2.1.5",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
+    "googleapis": "^114.0.0",
     "make-plural": "^6.2.2",
     "next": "13.2.3",
     "react": "18.2.0",

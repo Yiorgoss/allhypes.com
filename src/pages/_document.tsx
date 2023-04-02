@@ -107,7 +107,6 @@ export default function Document() {
                       gtag('js', new Date());
 
                       gtag('config', 'G-ERJZZNQRDR');
-              });
             `}
                 </Script>
             </Head>
