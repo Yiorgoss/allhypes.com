@@ -59,6 +59,18 @@ msgstr "For us, you are the hero of real life, that's why for All Hypes, you are
 msgid "Contributors.head.title"
 msgstr "In All Hypes you are the protagonist!"
 
+#: src/layouts/mainLayout.tsx:16
+msgid "Header.AboutUs"
+msgstr "About Us"
+
+#: src/layouts/mainLayout.tsx:20
+msgid "Header.Contact"
+msgstr "Contact"
+
+#: src/layouts/mainLayout.tsx:14
+msgid "Header.Home"
+msgstr "Home"
+
 #: src/pages/index.tsx:127
 msgid "Home.head.meta.description"
 msgstr "At All Hype we have the people and knowledge to always be on top."
@@ -99,11 +111,11 @@ msgstr "Reputation Management"
 msgid "Home.title.whoAreWe"
 msgstr "Who we are?"
 
-#: src/pages/services/sponsorships.tsx:16
+#: src/pages/services/sponsorships.tsx:31
 msgid "ServiceSponsorships.desc1"
 msgstr "We take care of finding sponsorships according to the capabilities of your accounts."
 
-#: src/pages/services/sponsorships.tsx:13
+#: src/pages/services/sponsorships.tsx:28
 msgid "ServiceSponsorships.title"
 msgstr "Sponsorships"
 
@@ -115,63 +127,63 @@ msgstr "Reaching the top is not difficult! It's hard to stay on top and here com
 msgid "Services.head.title"
 msgstr "All Hypes means always being on top!"
 
-#: src/pages/services/brand-development-ideation.tsx:16
+#: src/pages/services/brand-development-ideation.tsx:31
 msgid "ServicesBrandDevelopmentIdeation.desc1"
 msgstr "Brand development, brainstorming and experience are what you and your brand need."
 
-#: src/pages/services/brand-development-ideation.tsx:13
+#: src/pages/services/brand-development-ideation.tsx:28
 msgid "ServicesBrandDevelopmentIdeation.title"
 msgstr "Brand Development and Ideation"
 
-#: src/pages/services/business-marketing.tsx:16
+#: src/pages/services/business-marketing.tsx:31
 msgid "ServicesBusinessMarketing.desc1"
 msgstr "Business marketing is a marketing practice of individuals or organizations. It allows them to sell products or services to other companies or organizations who resell them, use them in their products or services, or use them to support their projects."
 
-#: src/pages/services/business-marketing.tsx:13
+#: src/pages/services/business-marketing.tsx:28
 msgid "ServicesBusinessMarketing.title"
 msgstr "Business Marketing"
 
-#: src/pages/services/custom-services.tsx:15
+#: src/pages/services/custom-services.tsx:30
 msgid "ServicesCustomServices.desc1"
 msgstr "Didn't find what you need? Contact us and choose the services that suit you!"
 
-#: src/pages/services/custom-services.tsx:12
+#: src/pages/services/custom-services.tsx:27
 msgid "ServicesCustomServices.title"
 msgstr "Custom Services"
 
-#: src/pages/services/event-organizations-management.tsx:15
+#: src/pages/services/event-organizations-management.tsx:30
 msgid "ServicesEventOrganizationManagement.desc1"
 msgstr "We undertake the finding of the space, the decoration and also the communication with guests who will come either from the world of Social Media or from the television world! We also undertake communication with public and private television channels for maximum visibility."
 
-#: src/pages/services/event-organizations-management.tsx:12
+#: src/pages/services/event-organizations-management.tsx:27
 msgid "ServicesEventOrganizationManagement.title"
 msgstr "Event Organization Management"
 
-#: src/pages/services/google-ad-campaigns.tsx:16
+#: src/pages/services/google-ad-campaigns.tsx:31
 msgid "ServicesGoogleAdCampaigns.desc1"
 msgstr "We undertake your advertising through Google Ads in a huge and vast world. For us, this world is our home, that's why All Hypes is the only way for you!"
 
-#: src/pages/services/google-ad-campaigns.tsx:13
+#: src/pages/services/google-ad-campaigns.tsx:28
 msgid "ServicesGoogleAdCampaigns.title"
 msgstr "Google Ad Campaigns"
 
-#: src/pages/services/influencer-marketing.tsx:17
+#: src/pages/services/influencer-marketing.tsx:32
 msgid "ServicesInfluencerMarketing.desc1"
 msgstr "Influencers have developed a strong, and personal, relationship with their audience, often posting original and interesting Content, which attracts the attention of their Followers, and ensures constant traffic to their pages."
 
-#: src/pages/services/influencer-marketing.tsx:20
+#: src/pages/services/influencer-marketing.tsx:35
 msgid "ServicesInfluencerMarketing.desc2"
 msgstr "In this way, the integration of advertising messages, in the normal flow of the Influencers' posts, ensures, as far as possible, organic, authentic, but also targeted advertising of various products and services."
 
-#: src/pages/services/influencer-marketing.tsx:23
+#: src/pages/services/influencer-marketing.tsx:38
 msgid "ServicesInfluencerMarketing.desc3"
 msgstr "In practice, it has been proven that Influencer Campaigns yield clearly better results, both in terms of impact and sales, than practically any other advertising methods."
 
-#: src/pages/services/influencer-marketing.tsx:13
+#: src/pages/services/influencer-marketing.tsx:28
 msgid "ServicesInfluencerMarketing.title"
 msgstr "Influencer Marketing"
 
-#: src/pages/services/pr-communication-strategy.tsx:16
+#: src/pages/services/pr-communication-strategy.tsx:31
 msgid "ServicesPrCommunicationStrategy.desc1"
 msgstr "Do you want to expand into a world where you \"don't get off\"? ! Our company has experienced staff and has the know how to communicate what you cannot! All Hypes also undertakes your communication strategy with absolute targeting on you and your needs. Communication is our forte! Learn how with just a call!"
 
@@ -183,15 +195,15 @@ msgstr "Do you want to expand into a world where you \"don't get off\"? ! Our co
 #~ msgid "ServicesPrCommunicationStrategy.desc3"
 #~ msgstr "In practice, it has been proven that Influencer Campaigns yield clearly better results, both in terms of impact and sales, than practically any other advertising methods."
 
-#: src/pages/services/pr-communication-strategy.tsx:12
+#: src/pages/services/pr-communication-strategy.tsx:27
 msgid "ServicesPrCommunicationStrategy.title"
 msgstr "PR Communication Strategy"
 
-#: src/pages/services/rebranding.tsx:16
+#: src/pages/services/rebranding.tsx:31
 msgid "ServicesRebranding.desc1"
 msgstr "Choosing the right logo reflects who you really are! We know first hand that the right choice is something quite difficult (the same happened to us). At All Hypes we have stable collaborations with the best specialists to offer you the most modern and the most unique! We completely undertake to create and even modify your existing logo (rebrand), we offer targeted ideas and implement them for you. What do we need from you? Call us and let's sit together and learn about you to create only the best for you!"
 
-#: src/pages/services/rebranding.tsx:13
+#: src/pages/services/rebranding.tsx:28
 msgid "ServicesRebranding.title"
 msgstr "Rebranding"
 
@@ -239,67 +251,75 @@ msgstr "Google Ads Campaigns"
 msgid "ServicesSidebarlayout.1"
 msgstr "PR & Communication Strategy"
 
+#: src/pages/services/social-media-management.tsx:31
+msgid "ServicesSocialMediaManagement.desc1"
+msgstr "We manage your personal or business account."
+
+#: src/pages/services/social-media-management.tsx:28
+msgid "ServicesSocialMediaManagement.title"
+msgstr "Social Media Management"
+
 #: src/pages/services/website-creation-hosting.tsx:61
 #~ msgid "ServicesWebsiteCreationHosting"
 #~ msgstr "Get in contact and make your dreams a reality"
 
-#: src/pages/services/website-creation-hosting.tsx:21
+#: src/pages/services/website-creation-hosting.tsx:36
 msgid "ServicesWebsiteCreationHosting.desc1.1"
 msgstr "Have you ever wanted a website but can't find the time to sit down, plan it and execute itt?"
 
-#: src/pages/services/website-creation-hosting.tsx:24
+#: src/pages/services/website-creation-hosting.tsx:39
 msgid "ServicesWebsiteCreationHosting.desc1.2"
 msgstr "Have you ever wanted to start a blog to monetize the ad revenue you receive while sharing your writing with a wider audience?"
 
-#: src/pages/services/website-creation-hosting.tsx:27
+#: src/pages/services/website-creation-hosting.tsx:42
 msgid "ServicesWebsiteCreationHosting.desc1.3"
 msgstr "Have you considered launching a brand of clothing but could only find dropshipping websites without enough customisation to suit your needs?"
 
-#: src/pages/services/website-creation-hosting.tsx:30
+#: src/pages/services/website-creation-hosting.tsx:45
 msgid "ServicesWebsiteCreationHosting.desc1.4"
 msgstr "Have you wanted a way to interact with your audience in ways that snapchat or instagram simply won't allow?"
 
-#: src/pages/services/website-creation-hosting.tsx:35
+#: src/pages/services/website-creation-hosting.tsx:50
 msgid "ServicesWebsiteCreationHosting.desc2"
 msgstr "Thats where we are here to help. We have all the tools necessary to make your dreams a reality. You don’t have to spend you time worrying about what colour palettes go together, or if the website designer is overcharging you. We have all the necessary personnel to decrease the amount of time you spend thinking about the website design process and more time thinking about what content or products you wish to create."
 
-#: src/pages/services/website-creation-hosting.tsx:38
+#: src/pages/services/website-creation-hosting.tsx:53
 msgid "ServicesWebsiteCreationHosting.desc3"
 msgstr "Here at Allhypes, we take care of our customers, in any ways that you want and even more ways you didn't know you wanted. We don't rest until you are completely satisfied with every aspect of your website. Be it the colours scheme, the layout or products you see. We handle all the stuff you dont know you need, things like"
 
-#: src/pages/services/website-creation-hosting.tsx:42
+#: src/pages/services/website-creation-hosting.tsx:57
 msgid "ServicesWebsiteCreationHosting.desc3.1"
 msgstr "Search Engine Optimization"
 
-#: src/pages/services/website-creation-hosting.tsx:45
+#: src/pages/services/website-creation-hosting.tsx:60
 msgid "ServicesWebsiteCreationHosting.desc3.2"
 msgstr "Website Uptime"
 
-#: src/pages/services/website-creation-hosting.tsx:48
+#: src/pages/services/website-creation-hosting.tsx:63
 msgid "ServicesWebsiteCreationHosting.desc3.3"
 msgstr "Security and Data Protection"
 
-#: src/pages/services/website-creation-hosting.tsx:51
+#: src/pages/services/website-creation-hosting.tsx:66
 msgid "ServicesWebsiteCreationHosting.desc3.4"
 msgstr "Maintenance and any future updatess"
 
-#: src/pages/services/website-creation-hosting.tsx:54
+#: src/pages/services/website-creation-hosting.tsx:69
 msgid "ServicesWebsiteCreationHosting.desc3.5"
 msgstr "Website Analytics"
 
-#: src/pages/services/website-creation-hosting.tsx:57
+#: src/pages/services/website-creation-hosting.tsx:72
 msgid "ServicesWebsiteCreationHosting.desc3.6"
 msgstr "Hosting and Load balancing"
 
-#: src/pages/services/website-creation-hosting.tsx:62
+#: src/pages/services/website-creation-hosting.tsx:77
 msgid "ServicesWebsiteCreationHosting.desc4"
 msgstr "Get in contact and make your dreams a reality"
 
-#: src/pages/services/website-creation-hosting.tsx:16
+#: src/pages/services/website-creation-hosting.tsx:31
 msgid "ServicesWebsiteCreationHosting.h3"
 msgstr "Have you Ever wanted a website?"
 
-#: src/pages/services/website-creation-hosting.tsx:12
+#: src/pages/services/website-creation-hosting.tsx:27
 msgid "ServicesWebsiteCreationHosting.title"
 msgstr "Website Creation + Hosting + Maintenance"
 
@@ -311,7 +331,15 @@ msgstr "At All Hype we have the people and knowledge to always be on top."
 msgid "Talent.head.title"
 msgstr "The point is to know how to do it all All Hypes!"
 
-#: src/pages/talent/event-management.tsx:18
+#: src/pages/talent/business-management.tsx:31
+msgid "TalentBusinessManagement.desc1"
+msgstr "We specialize in the field of Business Management!"
+
+#: src/pages/talent/business-management.tsx:28
+msgid "TalentBusinessManagement.title"
+msgstr "Business Management"
+
+#: src/pages/talent/event-management.tsx:33
 msgid "TalentEventManagement.desc1"
 msgstr ""
 "Do you need to present your product or services in a specially\n"
@@ -319,7 +347,7 @@ msgstr ""
 "undertakes the full coverage of your needs for the organization of\n"
 "your event."
 
-#: src/pages/talent/event-management.tsx:27
+#: src/pages/talent/event-management.tsx:42
 msgid "TalentEventManagement.desc2"
 msgstr ""
 "We undertake the finding of the space, the decoration and also the\n"
@@ -328,31 +356,31 @@ msgstr ""
 "communication with public and private television channels for\n"
 "maximum visibility. Learn how with just one call!"
 
-#: src/pages/talent/event-management.tsx:11
+#: src/pages/talent/event-management.tsx:26
 msgid "TalentEventManagement.title"
 msgstr "Event Management"
 
-#: src/pages/talent/influencer-management.tsx:16
+#: src/pages/talent/influencer-management.tsx:32
 msgid "TalentInfluencerManagement.desc1"
 msgstr "We specialize in the field of Influencer Management!"
 
-#: src/pages/talent/influencer-management.tsx:13
+#: src/pages/talent/influencer-management.tsx:29
 msgid "TalentInfluencerManagement.title"
 msgstr "Influencer Management"
 
-#: src/pages/talent/marketing-communication-strategist.tsx:16
+#: src/pages/talent/marketing-communication-strategist.tsx:31
 msgid "TalentMarketingCommunicationStrategist.desc1"
 msgstr "We specialize in the field of Marketing and communication strategy"
 
-#: src/pages/talent/marketing-communication-strategist.tsx:13
+#: src/pages/talent/marketing-communication-strategist.tsx:28
 msgid "TalentMarketingCommunicationStrategist.title"
 msgstr "Marketing and Communications Strategist"
 
-#: src/pages/talent/personal-management.tsx:16
+#: src/pages/talent/personal-management.tsx:31
 msgid "TalentPersonalManagement.desc1"
 msgstr "We specialize in the field of Personal Management!"
 
-#: src/pages/talent/personal-management.tsx:13
+#: src/pages/talent/personal-management.tsx:28
 msgid "TalentPersonalManagement.title"
 msgstr "Personal Management"
 
@@ -397,11 +425,11 @@ msgid "contactForm.input.number"
 msgstr "Phone number"
 
 #: src/components/contactForm.tsx:104
-#: src/pages/talent/form.tsx:142
+#: src/pages/talent/form.tsx:157
 msgid "contactForm.input.reset"
 msgstr "Reset"
 
 #: src/components/contactForm.tsx:108
-#: src/pages/talent/form.tsx:149
+#: src/pages/talent/form.tsx:164
 msgid "contactForm.input.submit"
 msgstr "Submit"

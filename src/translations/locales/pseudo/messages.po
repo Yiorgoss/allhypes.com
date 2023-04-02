@@ -59,6 +59,18 @@ msgstr ""
 msgid "Contributors.head.title"
 msgstr ""
 
+#: src/layouts/mainLayout.tsx:16
+msgid "Header.AboutUs"
+msgstr ""
+
+#: src/layouts/mainLayout.tsx:20
+msgid "Header.Contact"
+msgstr ""
+
+#: src/layouts/mainLayout.tsx:14
+msgid "Header.Home"
+msgstr ""
+
 #: src/pages/index.tsx:127
 msgid "Home.head.meta.description"
 msgstr ""
@@ -103,11 +115,11 @@ msgstr ""
 msgid "Home.title.whoAreWe"
 msgstr ""
 
-#: src/pages/services/sponsorships.tsx:16
+#: src/pages/services/sponsorships.tsx:31
 msgid "ServiceSponsorships.desc1"
 msgstr ""
 
-#: src/pages/services/sponsorships.tsx:13
+#: src/pages/services/sponsorships.tsx:28
 msgid "ServiceSponsorships.title"
 msgstr ""
 
@@ -119,63 +131,63 @@ msgstr ""
 msgid "Services.head.title"
 msgstr ""
 
-#: src/pages/services/brand-development-ideation.tsx:16
+#: src/pages/services/brand-development-ideation.tsx:31
 msgid "ServicesBrandDevelopmentIdeation.desc1"
 msgstr ""
 
-#: src/pages/services/brand-development-ideation.tsx:13
+#: src/pages/services/brand-development-ideation.tsx:28
 msgid "ServicesBrandDevelopmentIdeation.title"
 msgstr ""
 
-#: src/pages/services/business-marketing.tsx:16
+#: src/pages/services/business-marketing.tsx:31
 msgid "ServicesBusinessMarketing.desc1"
 msgstr ""
 
-#: src/pages/services/business-marketing.tsx:13
+#: src/pages/services/business-marketing.tsx:28
 msgid "ServicesBusinessMarketing.title"
 msgstr ""
 
-#: src/pages/services/custom-services.tsx:15
+#: src/pages/services/custom-services.tsx:30
 msgid "ServicesCustomServices.desc1"
 msgstr ""
 
-#: src/pages/services/custom-services.tsx:12
+#: src/pages/services/custom-services.tsx:27
 msgid "ServicesCustomServices.title"
 msgstr ""
 
-#: src/pages/services/event-organizations-management.tsx:15
+#: src/pages/services/event-organizations-management.tsx:30
 msgid "ServicesEventOrganizationManagement.desc1"
 msgstr ""
 
-#: src/pages/services/event-organizations-management.tsx:12
+#: src/pages/services/event-organizations-management.tsx:27
 msgid "ServicesEventOrganizationManagement.title"
 msgstr ""
 
-#: src/pages/services/google-ad-campaigns.tsx:16
+#: src/pages/services/google-ad-campaigns.tsx:31
 msgid "ServicesGoogleAdCampaigns.desc1"
 msgstr ""
 
-#: src/pages/services/google-ad-campaigns.tsx:13
+#: src/pages/services/google-ad-campaigns.tsx:28
 msgid "ServicesGoogleAdCampaigns.title"
 msgstr ""
 
-#: src/pages/services/influencer-marketing.tsx:17
+#: src/pages/services/influencer-marketing.tsx:32
 msgid "ServicesInfluencerMarketing.desc1"
 msgstr ""
 
-#: src/pages/services/influencer-marketing.tsx:20
+#: src/pages/services/influencer-marketing.tsx:35
 msgid "ServicesInfluencerMarketing.desc2"
 msgstr ""
 
-#: src/pages/services/influencer-marketing.tsx:23
+#: src/pages/services/influencer-marketing.tsx:38
 msgid "ServicesInfluencerMarketing.desc3"
 msgstr ""
 
-#: src/pages/services/influencer-marketing.tsx:13
+#: src/pages/services/influencer-marketing.tsx:28
 msgid "ServicesInfluencerMarketing.title"
 msgstr ""
 
-#: src/pages/services/pr-communication-strategy.tsx:16
+#: src/pages/services/pr-communication-strategy.tsx:31
 msgid "ServicesPrCommunicationStrategy.desc1"
 msgstr ""
 
@@ -187,15 +199,15 @@ msgstr ""
 #~ msgid "ServicesPrCommunicationStrategy.desc3"
 #~ msgstr ""
 
-#: src/pages/services/pr-communication-strategy.tsx:12
+#: src/pages/services/pr-communication-strategy.tsx:27
 msgid "ServicesPrCommunicationStrategy.title"
 msgstr ""
 
-#: src/pages/services/rebranding.tsx:16
+#: src/pages/services/rebranding.tsx:31
 msgid "ServicesRebranding.desc1"
 msgstr ""
 
-#: src/pages/services/rebranding.tsx:13
+#: src/pages/services/rebranding.tsx:28
 msgid "ServicesRebranding.title"
 msgstr ""
 
@@ -243,67 +255,75 @@ msgstr ""
 msgid "ServicesSidebarlayout.1"
 msgstr ""
 
+#: src/pages/services/social-media-management.tsx:31
+msgid "ServicesSocialMediaManagement.desc1"
+msgstr ""
+
+#: src/pages/services/social-media-management.tsx:28
+msgid "ServicesSocialMediaManagement.title"
+msgstr ""
+
 #: src/pages/services/website-creation-hosting.tsx:61
 #~ msgid "ServicesWebsiteCreationHosting"
 #~ msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:21
+#: src/pages/services/website-creation-hosting.tsx:36
 msgid "ServicesWebsiteCreationHosting.desc1.1"
 msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:24
+#: src/pages/services/website-creation-hosting.tsx:39
 msgid "ServicesWebsiteCreationHosting.desc1.2"
 msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:27
+#: src/pages/services/website-creation-hosting.tsx:42
 msgid "ServicesWebsiteCreationHosting.desc1.3"
 msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:30
+#: src/pages/services/website-creation-hosting.tsx:45
 msgid "ServicesWebsiteCreationHosting.desc1.4"
 msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:35
+#: src/pages/services/website-creation-hosting.tsx:50
 msgid "ServicesWebsiteCreationHosting.desc2"
 msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:38
+#: src/pages/services/website-creation-hosting.tsx:53
 msgid "ServicesWebsiteCreationHosting.desc3"
 msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:42
+#: src/pages/services/website-creation-hosting.tsx:57
 msgid "ServicesWebsiteCreationHosting.desc3.1"
 msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:45
+#: src/pages/services/website-creation-hosting.tsx:60
 msgid "ServicesWebsiteCreationHosting.desc3.2"
 msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:48
+#: src/pages/services/website-creation-hosting.tsx:63
 msgid "ServicesWebsiteCreationHosting.desc3.3"
 msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:51
+#: src/pages/services/website-creation-hosting.tsx:66
 msgid "ServicesWebsiteCreationHosting.desc3.4"
 msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:54
+#: src/pages/services/website-creation-hosting.tsx:69
 msgid "ServicesWebsiteCreationHosting.desc3.5"
 msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:57
+#: src/pages/services/website-creation-hosting.tsx:72
 msgid "ServicesWebsiteCreationHosting.desc3.6"
 msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:62
+#: src/pages/services/website-creation-hosting.tsx:77
 msgid "ServicesWebsiteCreationHosting.desc4"
 msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:16
+#: src/pages/services/website-creation-hosting.tsx:31
 msgid "ServicesWebsiteCreationHosting.h3"
 msgstr ""
 
-#: src/pages/services/website-creation-hosting.tsx:12
+#: src/pages/services/website-creation-hosting.tsx:27
 msgid "ServicesWebsiteCreationHosting.title"
 msgstr ""
 
@@ -315,39 +335,47 @@ msgstr ""
 msgid "Talent.head.title"
 msgstr ""
 
-#: src/pages/talent/event-management.tsx:18
+#: src/pages/talent/business-management.tsx:31
+msgid "TalentBusinessManagement.desc1"
+msgstr ""
+
+#: src/pages/talent/business-management.tsx:28
+msgid "TalentBusinessManagement.title"
+msgstr ""
+
+#: src/pages/talent/event-management.tsx:33
 msgid "TalentEventManagement.desc1"
 msgstr ""
 
-#: src/pages/talent/event-management.tsx:27
+#: src/pages/talent/event-management.tsx:42
 msgid "TalentEventManagement.desc2"
 msgstr ""
 
-#: src/pages/talent/event-management.tsx:11
+#: src/pages/talent/event-management.tsx:26
 msgid "TalentEventManagement.title"
 msgstr ""
 
-#: src/pages/talent/influencer-management.tsx:16
+#: src/pages/talent/influencer-management.tsx:32
 msgid "TalentInfluencerManagement.desc1"
 msgstr ""
 
-#: src/pages/talent/influencer-management.tsx:13
+#: src/pages/talent/influencer-management.tsx:29
 msgid "TalentInfluencerManagement.title"
 msgstr ""
 
-#: src/pages/talent/marketing-communication-strategist.tsx:16
+#: src/pages/talent/marketing-communication-strategist.tsx:31
 msgid "TalentMarketingCommunicationStrategist.desc1"
 msgstr ""
 
-#: src/pages/talent/marketing-communication-strategist.tsx:13
+#: src/pages/talent/marketing-communication-strategist.tsx:28
 msgid "TalentMarketingCommunicationStrategist.title"
 msgstr ""
 
-#: src/pages/talent/personal-management.tsx:16
+#: src/pages/talent/personal-management.tsx:31
 msgid "TalentPersonalManagement.desc1"
 msgstr ""
 
-#: src/pages/talent/personal-management.tsx:13
+#: src/pages/talent/personal-management.tsx:28
 msgid "TalentPersonalManagement.title"
 msgstr ""
 
@@ -392,11 +420,11 @@ msgid "contactForm.input.number"
 msgstr ""
 
 #: src/components/contactForm.tsx:104
-#: src/pages/talent/form.tsx:142
+#: src/pages/talent/form.tsx:157
 msgid "contactForm.input.reset"
 msgstr ""
 
 #: src/components/contactForm.tsx:108
-#: src/pages/talent/form.tsx:149
+#: src/pages/talent/form.tsx:164
 msgid "contactForm.input.submit"
 msgstr ""

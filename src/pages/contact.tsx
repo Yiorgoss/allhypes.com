@@ -5,6 +5,21 @@ import { t } from '@lingui/macro';
 import MainLayout from '@/layouts/mainLayout';
 import ContactForm from '@/components/contactForm';
 
+import { loadTranslation } from '@/utils/utils';
+
+import { GetStaticProps, GetServerSideProps } from 'next';
+export const getStaticProps: GetStaticProps = async (ctx) => {
+    const translation = await loadTranslation(
+        ctx.locale!,
+        process.env.NODE_ENV === 'production'
+    );
+
+    return {
+        props: {
+            translation
+        }
+    };
+};
 const Contact = () => {
     return (
         <>

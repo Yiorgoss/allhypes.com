@@ -2,7 +2,7 @@
 ** TODO add a back button to previous heirarchy
 
 [[file:~/code/gikas/allhypes/src/components/sidebar.tsx::{navLinks.map(({title, path}, i) => (]]
-** TODO Add google analytics
+** DONE Add google analytics
 
 [[file:~/code/gikas/allhypes/src/pages/talent/form.tsx::errors.name ? 'outline outline-2 outline-red-500' : '']]
 ** TODO needs visibile errors and success on response ok
@@ -14,6 +14,6 @@
 ** TODO handle the server side response iwth a green pop up
 
 [[file:~/code/gikas/allhypes/src/components/contactForm.tsx::};]]
-** TODO Red borders for error in submission
+** DONE Red borders for error in submission
 
 [[file:~/code/gikas/allhypes/src/components/contactForm.tsx::};]]
