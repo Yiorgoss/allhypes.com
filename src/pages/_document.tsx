@@ -97,16 +97,16 @@ export default function Document() {
                 <Script
                     strategy="lazyOnload"
                     id="google-tag-manager"
-                    src={`https://www.googletagmanager.com/gtag/js?id=G-ERJZZNQRDR`}
+                    src="https://www.googletagmanager.com/gtag/js?id=G-ERJZZNQRDR"
                 />
 
                 <Script id="google-analytics" strategy="afterInteractive">
                     {`
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-              gtag('config', 'G-ERJZZNQRDR', {
-                page_path: window.location.pathname,
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+
+                      gtag('config', 'G-ERJZZNQRDR');
               });
             `}
                 </Script>
