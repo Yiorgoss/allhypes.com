@@ -76,11 +76,11 @@ export default async function handler(
         const { token, data } = req.body;
 
         if (!token) {
-            return res.status(400);
+            return res.status(400).end();
         }
         const isRecaptchaPassed = handleReCAPTCHA(token);
         if (!isRecaptchaPassed) {
-            return res.status(403);
+            return res.status(403).end();
         }
 
         const { name, email, phone, message } = await contactSchema.validate(
@@ -104,5 +104,5 @@ export default async function handler(
                 console.log(error);
             });
     }
-    return res.status(200).json({ name: 'all good' });
+    return res.status(200).end();
 }

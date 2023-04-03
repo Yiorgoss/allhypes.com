@@ -1,4 +1,7 @@
 * Inbox
+** DONE add server response to logic for response box on form submit
+
+[[file:~/code/gikas/allhypes/src/components/responseBox.tsx][file:~/code/gikas/allhypes/src/components/responseBox.tsx]]
 ** TODO add a back button to previous heirarchy
 
 [[file:~/code/gikas/allhypes/src/components/sidebar.tsx::{navLinks.map(({title, path}, i) => (]]

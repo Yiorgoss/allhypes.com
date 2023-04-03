@@ -6,6 +6,7 @@ import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import ReCAPTCHA from 'react-google-recaptcha';
 
+import ResponseBox from '@/components/responseBox';
 import contactSchema from '@/utils/contactSchema';
 
 const ContactForm = () => {
@@ -13,12 +14,15 @@ const ContactForm = () => {
         register,
         handleSubmit,
         setValue,
-        formState: { errors }
+        reset,
+        formState: { errors, isSubmitting, isSubmitSuccessful }
     } = useForm({
         resolver: yupResolver(contactSchema)
     });
 
-    const router = useRouter();
+    const [serverResponse, setServerResponse] = useState<boolean>();
+    const [message, setMessage] = useState('');
+
     const captchaRef = useRef<ReCAPTCHA>(null);
 
     const onSubmit = async (data: any, e: any) => {
@@ -26,6 +30,8 @@ const ContactForm = () => {
         if (!captchaRef.current) {
             return;
         }
+        e.preventDefault();
+        window.scrollTo(0, 0);
         const token = captchaRef.current.getValue()!;
 
         const dataWithToken = {
@@ -41,10 +47,30 @@ const ContactForm = () => {
             },
             body: JSON.stringify(dataWithToken)
         });
+        const response = res.status === 200;
+        setServerResponse(response);
+
+        if (response) {
+            setMessage(
+                t({
+                    id: 'contactForm.successMessage',
+                    message: 'Thank you for reaching out'
+                })
+            );
+            reset();
+        } else {
+            setMessage(
+                t({
+                    id: 'contactForm.errorMessage',
+                    message: 'Error, please contact us via phone'
+                })
+            );
+        }
         e.preventDefault();
     };
     const onError = (err: any, e: any) => {
         console.log('error', err);
+        window.scrollTo(0, 0);
         e.preventDefault();
     };
 
@@ -59,6 +85,7 @@ const ContactForm = () => {
                         id: 'contactForm.input.name',
                         message: 'Full Name'
                     })}
+                    disabled={isSubmitting}
                     {...register('name')}
                 />
                 <input
@@ -69,6 +96,7 @@ const ContactForm = () => {
                         id: 'contactForm.input.number',
                         message: 'Phone number'
                     })}
+                    disabled={isSubmitting}
                     {...register('phone')}
                 />
                 <input
@@ -79,6 +107,7 @@ const ContactForm = () => {
                         id: 'contactForm.input.email',
                         message: 'Email'
                     })}
+                    disabled={isSubmitting}
                     {...register('email')}
                 />
                 <textarea
@@ -87,6 +116,7 @@ const ContactForm = () => {
                         id: 'contactForm.input.message',
                         message: 'Message'
                     })}
+                    disabled={isSubmitting}
                     {...register('message')}
                 />
                 <div className="col-span-full flex flex-col items-end justify-end md:flex-row ">
@@ -99,7 +129,7 @@ const ContactForm = () => {
                     </div>
                     <div
                         className="m-2 inline h-fit w-fit rounded-lg py-2 px-6 hover:text-tertiary"
-                        onClick={() => console.log('abc')}
+                        onClick={() => reset()}
                     >
                         {t({ id: 'contactForm.input.reset', message: 'Reset' })}
                     </div>
@@ -113,6 +143,9 @@ const ContactForm = () => {
                     />
                 </div>
             </div>
+            {isSubmitSuccessful && (
+                <ResponseBox text={message} status={serverResponse} />
+            )}
         </form>
     );
 };

@@ -19,43 +19,43 @@ export default async function handler(
         const data = await talentSchema.validate(req.body);
 
         const googleRes = await addDataToGoogleSheet(data);
-        if (googleRes.status !== 200) {
-            console.log('error with google sheet');
-            return res.status(400);
-        }
-        const mailToCustomer = createEmailToUser({
-            name: data.name,
-            email: data.email
-        });
 
-        const mailToAllhypes = createEmailToAllHypes(data);
-
-        if (!process.env['SENDGRID_API_KEY']) {
-            throw new Error('ERROR: ENV Var: SENDGRID_KEY not found');
-        }
-        mailer.setApiKey(process.env['SENDGRID_API_KEY']);
-
-        mailer
-            .send(mailToCustomer)
-            .then(() => {
-                console.log('Customer Email Sent Successfully');
-                return;
-            })
-            .catch((err: any) => {
-                console.log(err);
-            });
-        mailer
-            .send(mailToAllhypes)
-            .then(() => {
-                console.log('Allhypes Email Sent Successfully');
-                return;
-            })
-            .catch((err: any) => {
-                console.log(err);
+        if (googleRes.status === 200) {
+            const mailToCustomer = createEmailToUser({
+                name: data.name,
+                email: data.email
             });
 
-        return res.status(200);
+            const mailToAllhypes = createEmailToAllHypes(data);
+
+            if (!process.env['SENDGRID_API_KEY']) {
+                throw new Error('ERROR: ENV Var: SENDGRID_KEY not found');
+            }
+            mailer.setApiKey(process.env['SENDGRID_API_KEY']);
+
+            mailer
+                .send(mailToCustomer)
+                .then(() => {
+                    console.log('Customer Email Sent Successfully');
+                    return;
+                })
+                .catch((err: any) => {
+                    console.log(err);
+                });
+            mailer
+                .send(mailToAllhypes)
+                .then(() => {
+                    console.log('Allhypes Email Sent Successfully');
+                    return;
+                })
+                .catch((err: any) => {
+                    console.log(err);
+                });
+            return res.status(200).end();
+        }
+        return res.status(400).end();
     }
+    return res.status(405).end();
 }
 const addDataToGoogleSheet = async (data: {
     name: string;
@@ -108,7 +108,7 @@ const addDataToGoogleSheet = async (data: {
             data.ytAcc,
             data.ytFollowers,
             data.cpaYTVideo,
-            data.specialOffers ? data.specialOffers.replaceAll('\n', ' _ ') : ''
+            data.specialOffers ? data.specialOffers.replaceAll('\n', '_') : ''
         ]
     ];
 
@@ -121,6 +121,7 @@ const addDataToGoogleSheet = async (data: {
         }
     });
 
+    console.log('google res status', googleResponse.status);
     return googleResponse;
 };
 
