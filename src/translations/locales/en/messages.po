@@ -37,15 +37,15 @@ msgstr "In the era of Generation Z, we come to give the opportunity to both busi
 msgid "AboutUs.textBlock.3"
 msgstr "Our goal is to promote your idea in an original, specialized or less complicated way that inspires the buyer or follower to buy from you or travel with you in the online world. Our specialty is PR & communication strategy, influencer marketing, business marketing, brand development & ideation, event management, social media management, sponsorships."
 
-#: src/pages/contact.tsx:13
+#: src/pages/contact.tsx:28
 msgid "Contact.head.title"
 msgstr "All Hypes means YOU !"
 
-#: src/pages/contact.tsx:20
+#: src/pages/contact.tsx:35
 msgid "Contact.meta.description"
 msgstr "At All Hypes everything is you! Our 360° experience will make you a \"captain\" in your own career"
 
-#: src/pages/contact.tsx:30
+#: src/pages/contact.tsx:45
 msgid "Contact.title"
 msgstr "Contact Us"
 
@@ -408,28 +408,44 @@ msgstr "Business Management"
 msgid "TalentSidebarLayout.6"
 msgstr "Marketing and Communications Strategist"
 
-#: src/components/contactForm.tsx:78
+#: src/components/contactForm.tsx:63
+msgid "contactForm.errorMessage"
+msgstr "Error, please contact us via phone"
+
+#: src/components/contactForm.tsx:106
 msgid "contactForm.input.email"
 msgstr "Email"
 
-#: src/components/contactForm.tsx:86
+#: src/components/contactForm.tsx:115
 msgid "contactForm.input.message"
 msgstr "Message"
 
-#: src/components/contactForm.tsx:58
+#: src/components/contactForm.tsx:84
 msgid "contactForm.input.name"
 msgstr "Full Name"
 
-#: src/components/contactForm.tsx:68
+#: src/components/contactForm.tsx:95
 msgid "contactForm.input.number"
 msgstr "Phone number"
 
-#: src/components/contactForm.tsx:104
-#: src/pages/talent/form.tsx:157
+#: src/components/contactForm.tsx:134
+#: src/pages/talent/form.tsx:199
 msgid "contactForm.input.reset"
 msgstr "Reset"
 
-#: src/components/contactForm.tsx:108
-#: src/pages/talent/form.tsx:164
+#: src/components/contactForm.tsx:138
+#: src/pages/talent/form.tsx:206
 msgid "contactForm.input.submit"
 msgstr "Submit"
+
+#: src/components/contactForm.tsx:55
+msgid "contactForm.successMessage"
+msgstr "Thank you for reaching out"
+
+#: src/pages/talent/form.tsx:62
+msgid "talentForm.errorMessage"
+msgstr "Submission was not recorded. Please contact us directly"
+
+#: src/pages/talent/form.tsx:54
+msgid "talentForm.successMessage"
+msgstr "Successful Submission. We thank you!"

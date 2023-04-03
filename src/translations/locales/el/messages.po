@@ -37,15 +37,15 @@ msgstr "Στην εποχή του Generation Z ερχόμαστε να δώσο
 msgid "AboutUs.textBlock.3"
 msgstr "Στόχος μας είναι να προωθήσουμε την ιδέα σας με έναν τρόπο πρωτότυπο, εξειδικευμένο η λιγότερο πολύπλοκο που να εμπνέει τον αγοραστή ή ακόλουθο να αγοράσει από εσάς ή να ταξιδέψει μαζί σας στον κόσμο του διαδικτύου. Ειδικότητα μας είναι το PR & communication strategy, influencer marketing, business marketing, brand development & ideation, event management, social media management, sponsorships."
 
-#: src/pages/contact.tsx:13
+#: src/pages/contact.tsx:28
 msgid "Contact.head.title"
 msgstr "All Hypes means YOU !"
 
-#: src/pages/contact.tsx:20
+#: src/pages/contact.tsx:35
 msgid "Contact.meta.description"
 msgstr "Στην All Hypes τα πάντα είσαι εσύ ! Η 360ο εμπειρία μας θα σε κάνει “καπετάνιο” στην δική σου καριέρα"
 
-#: src/pages/contact.tsx:30
+#: src/pages/contact.tsx:45
 msgid "Contact.title"
 msgstr "Επικοινωνία"
 
@@ -69,7 +69,7 @@ msgstr "Επικοινωνία"
 
 #: src/layouts/mainLayout.tsx:14
 msgid "Header.Home"
-msgstr "Σπίτι"
+msgstr "Αρχική"
 
 #: src/pages/index.tsx:127
 msgid "Home.head.meta.description"
@@ -89,11 +89,11 @@ msgstr "Διοίκηση Επιχειρήσεων"
 
 #: src/pages/index.tsx:82
 msgid "Home.title.clients"
-msgstr "Πελάτες"
+msgstr "πελάτες"
 
 #: src/pages/index.tsx:91
 msgid "Home.title.contributors"
-msgstr "Συνεισφέροντες"
+msgstr "Συνεργάτες"
 
 #: src/pages/index.tsx:58
 msgid "Home.title.influencerManagement"
@@ -249,19 +249,19 @@ msgstr "Στρατηγική δημοσίων σχέσεων και επικοι
 
 #: src/pages/services/social-media-management.tsx:31
 msgid "ServicesSocialMediaManagement.desc1"
-msgstr ""
+msgstr "Διαχειριζόμαστε τον προσωπικό ή επαγγελματικό σας λογαριασμό."
 
 #: src/pages/services/social-media-management.tsx:28
 msgid "ServicesSocialMediaManagement.title"
-msgstr ""
+msgstr "Διαχείριση μέσων κοινωνικής δικτύωσης"
 
 #: src/pages/services/website-creation-hosting.tsx:36
 msgid "ServicesWebsiteCreationHosting.desc1.1"
-msgstr "Θέλατε ποτέ έναν ιστότοπο αλλά δεν μπορείτε να βρείτε χρόνο να καθίσετε, να τον σχεδιάσετε και να τον εκτελέσετε;"
+msgstr "Χρειάζεστε  έναν ιστότοπο αλλά δεν μπορείτε να βρείτε χρόνο να καθίσετε, να τον σχεδιάσετε και να τον εκτελέσετε;"
 
 #: src/pages/services/website-creation-hosting.tsx:39
 msgid "ServicesWebsiteCreationHosting.desc1.2"
-msgstr "Θέλατε ποτέ να ξεκινήσετε ένα ιστολόγιο για να αποκομίσετε έσοδα από τα έσοδα από διαφημίσεις που λαμβάνετε ενώ μοιράζεστε τα γραπτά σας με ένα ευρύτερο κοινό;"
+msgstr "Χρειάστηκε να ξεκινήσετε ένα ιστολόγιο για να αποκομίσετε έσοδα από διαφημίσεις ;"
 
 #: src/pages/services/website-creation-hosting.tsx:42
 msgid "ServicesWebsiteCreationHosting.desc1.3"
@@ -269,15 +269,15 @@ msgstr "Έχετε σκεφτεί να λανσάρετε μια επωνυμί�
 
 #: src/pages/services/website-creation-hosting.tsx:45
 msgid "ServicesWebsiteCreationHosting.desc1.4"
-msgstr "Θέλατε έναν τρόπο να αλληλεπιδράσετε με το κοινό σας με τρόπους που απλά δεν επιτρέπουν το snapchat ή το instagram;"
+msgstr "Θέλατε έναν τρόπο να αλληλεπιδράσετε με το κοινό σας με τρόπους που απλά δεν επιτρέπουν το snapchat ή το instagram"
 
 #: src/pages/services/website-creation-hosting.tsx:50
 msgid "ServicesWebsiteCreationHosting.desc2"
-msgstr "Εκεί είμαστε εδώ για να βοηθήσουμε. Έχουμε όλα τα απαραίτητα εργαλεία για να κάνουμε τα όνειρά σας πραγματικότητα. Δεν χρειάζεται να αφιερώνετε χρόνο ανησυχώντας για το ποιες παλέτες χρωμάτων συνδυάζονται ή εάν ο σχεδιαστής του ιστότοπου σας χρεώνει υπερβολικά. Διαθέτουμε όλο το απαραίτητο προσωπικό για να μειώσουμε τον χρόνο που αφιερώνετε σκεπτόμενοι τη διαδικασία σχεδιασμού της ιστοσελίδας και περισσότερο χρόνο για να σκεφτείτε το περιεχόμενο ή τα προϊόντα που θέλετε να δημιουργήσετε."
+msgstr "Είμαστε εδώ για να βοηθήσουμε. Έχουμε όλα τα απαραίτητα εργαλεία για να κάνουμε τα όνειρά σας πραγματικότητα. Διαθέτουμε όλο το απαραίτητο προσωπικό για να μειώσουμε τον χρόνο που αφιερώνετε σκεπτόμενοι τη διαδικασία σχεδιασμού της ιστοσελίδας και περισσότερο χρόνο για να σκεφτείτε το περιεχόμενο ή τα προϊόντα που θέλετε να δημιουργήσετε."
 
 #: src/pages/services/website-creation-hosting.tsx:53
 msgid "ServicesWebsiteCreationHosting.desc3"
-msgstr "Εδώ στην Allhypes, φροντίζουμε τους πελάτες μας, με όποιον τρόπο θέλετε και ακόμη περισσότερους τρόπους που δεν ξέρατε ότι θέλετε. Δεν επαναπαυόμαστε μέχρι να είστε απόλυτα ικανοποιημένοι με κάθε πτυχή του ιστότοπού σας. Είτε πρόκειται για το συνδυασμό χρωμάτων, τη διάταξη ή τα προϊόντα που βλέπετε. Αναλαμβάνουμε όλα τα πράγματα που δεν ξέρετε ότι χρειάζεστε, όπως"
+msgstr "Εδώ στην Allhypes, φροντίζουμε τους πελάτες μας, με όποιον τρόπο θέλετε και ακόμη περισσότερους τρόπους που δεν ξέρατε ότι θέλετε. Δεν επαναπαυόμαστε μέχρι να είστε απόλυτα ικανοποιημένοι με κάθε πτυχή του ιστότοπού σας. Είτε πρόκειται για το συνδυασμό χρωμάτων, τη διάταξη ή τα προϊόντα που βλέπετε. "
 
 #: src/pages/services/website-creation-hosting.tsx:57
 msgid "ServicesWebsiteCreationHosting.desc3.1"
@@ -391,28 +391,44 @@ msgstr "Διοίκηση Επιχειρήσεων"
 msgid "TalentSidebarLayout.6"
 msgstr "Στρατηγικός Μάρκετινγκ και Επικοινωνίας"
 
-#: src/components/contactForm.tsx:78
+#: src/components/contactForm.tsx:63
+msgid "contactForm.errorMessage"
+msgstr "Σφάλμα, επικοινωνήστε μαζί μας μέσω τηλεφώνου"
+
+#: src/components/contactForm.tsx:106
 msgid "contactForm.input.email"
 msgstr "Email"
 
-#: src/components/contactForm.tsx:86
+#: src/components/contactForm.tsx:115
 msgid "contactForm.input.message"
 msgstr "μήνυμα για εμάς"
 
-#: src/components/contactForm.tsx:58
+#: src/components/contactForm.tsx:84
 msgid "contactForm.input.name"
 msgstr "όνομα"
 
-#: src/components/contactForm.tsx:68
+#: src/components/contactForm.tsx:95
 msgid "contactForm.input.number"
 msgstr "τηλέφωνο"
 
-#: src/components/contactForm.tsx:104
-#: src/pages/talent/form.tsx:157
+#: src/components/contactForm.tsx:134
+#: src/pages/talent/form.tsx:199
 msgid "contactForm.input.reset"
 msgstr "επαναφορ"
 
-#: src/components/contactForm.tsx:108
-#: src/pages/talent/form.tsx:164
+#: src/components/contactForm.tsx:138
+#: src/pages/talent/form.tsx:206
 msgid "contactForm.input.submit"
 msgstr "υποβάλλουν"
+
+#: src/components/contactForm.tsx:55
+msgid "contactForm.successMessage"
+msgstr "Σας ευχαριστούμε που απευθυνθήκατε"
+
+#: src/pages/talent/form.tsx:62
+msgid "talentForm.errorMessage"
+msgstr "Η υποβολή δεν καταγράφηκε. Επικοινωνήστε απευθείας μαζί μας"
+
+#: src/pages/talent/form.tsx:54
+msgid "talentForm.successMessage"
+msgstr "Επιτυχής Υποβολή. Σας ευχαριστούμε!"

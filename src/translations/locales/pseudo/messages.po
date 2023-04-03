@@ -37,15 +37,15 @@ msgstr ""
 msgid "AboutUs.textBlock.3"
 msgstr ""
 
-#: src/pages/contact.tsx:13
+#: src/pages/contact.tsx:28
 msgid "Contact.head.title"
 msgstr ""
 
-#: src/pages/contact.tsx:20
+#: src/pages/contact.tsx:35
 msgid "Contact.meta.description"
 msgstr ""
 
-#: src/pages/contact.tsx:30
+#: src/pages/contact.tsx:45
 msgid "Contact.title"
 msgstr ""
 
@@ -403,28 +403,44 @@ msgstr ""
 msgid "TalentSidebarLayout.6"
 msgstr ""
 
-#: src/components/contactForm.tsx:78
+#: src/components/contactForm.tsx:63
+msgid "contactForm.errorMessage"
+msgstr ""
+
+#: src/components/contactForm.tsx:106
 msgid "contactForm.input.email"
 msgstr ""
 
-#: src/components/contactForm.tsx:86
+#: src/components/contactForm.tsx:115
 msgid "contactForm.input.message"
 msgstr ""
 
-#: src/components/contactForm.tsx:58
+#: src/components/contactForm.tsx:84
 msgid "contactForm.input.name"
 msgstr ""
 
-#: src/components/contactForm.tsx:68
+#: src/components/contactForm.tsx:95
 msgid "contactForm.input.number"
 msgstr ""
 
-#: src/components/contactForm.tsx:104
-#: src/pages/talent/form.tsx:157
+#: src/components/contactForm.tsx:134
+#: src/pages/talent/form.tsx:199
 msgid "contactForm.input.reset"
 msgstr ""
 
-#: src/components/contactForm.tsx:108
-#: src/pages/talent/form.tsx:164
+#: src/components/contactForm.tsx:138
+#: src/pages/talent/form.tsx:206
 msgid "contactForm.input.submit"
+msgstr ""
+
+#: src/components/contactForm.tsx:55
+msgid "contactForm.successMessage"
+msgstr ""
+
+#: src/pages/talent/form.tsx:62
+msgid "talentForm.errorMessage"
+msgstr ""
+
+#: src/pages/talent/form.tsx:54
+msgid "talentForm.successMessage"
 msgstr ""
