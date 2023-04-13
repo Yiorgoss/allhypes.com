@@ -27,7 +27,7 @@ const Home = ({}) => {
             title: t({ id: 'Home.title.whoAreWe', message: 'Who we are?' }),
             href: '/about-us',
             imageData: {
-                url: '/media/who_we_are.jpeg',
+                url: '/media/who_we_are.jpg',
                 height: 400,
                 width: 300
             }
@@ -37,7 +37,7 @@ const Home = ({}) => {
             title: t({ id: 'Home.title.ourTalent', message: 'Our Talent' }),
             href: '/talent',
             imageData: {
-                url: '/media/talent.jpeg',
+                url: '/media/talent.jpg',
                 height: 500,
                 width: 600
             }
@@ -49,7 +49,7 @@ const Home = ({}) => {
             }),
             href: '/services/',
             imageData: {
-                url: '/media/reputation.jpeg',
+                url: '/media/reputation_management.jpg',
                 height: 800,
                 width: 500
             }
@@ -61,7 +61,7 @@ const Home = ({}) => {
             }),
             href: '/services',
             imageData: {
-                url: '/media/influencer.jpeg',
+                url: '/media/influencer_management.jpg',
                 height: 500,
                 width: 700
             }
@@ -73,7 +73,7 @@ const Home = ({}) => {
             }),
             href: '/services',
             imageData: {
-                url: '/media/business.jpeg',
+                url: '/media/business_management.jpg',
                 height: 700,
                 width: 900
             }
@@ -82,7 +82,7 @@ const Home = ({}) => {
             title: t({ id: 'Home.title.clients', message: 'Clients' }),
             href: '/clients',
             imageData: {
-                url: '/media/clients.jpeg',
+                url: '/media/clients.jpg',
                 height: 900,
                 width: 1100
             }
@@ -94,7 +94,7 @@ const Home = ({}) => {
             }),
             href: '/contributors',
             imageData: {
-                url: '/media/contributors.jpeg',
+                url: '/media/contributors.jpg',
                 height: 900,
                 width: 1100
             }
@@ -106,7 +106,7 @@ const Home = ({}) => {
             }),
             href: '/talent/form',
             imageData: {
-                url: '/media/contributors.jpeg',
+                url: '/media/become_a_member.jpg',
                 height: 900,
                 width: 1100
             }

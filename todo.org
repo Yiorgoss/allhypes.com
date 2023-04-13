@@ -1,4 +1,21 @@
 * Inbox
+**  Photos
+- 22.jpg
+- 16
+  8
+  6
+  2
+  75
+  72
+  71
+    63
+    51
+    46
+    45
+    40
+    41
+
+  
 ** DONE add server response to logic for response box on form submit
 
 [[file:~/code/gikas/allhypes/src/components/responseBox.tsx][file:~/code/gikas/allhypes/src/components/responseBox.tsx]]

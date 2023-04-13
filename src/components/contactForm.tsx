@@ -31,7 +31,10 @@ const ContactForm = () => {
             return;
         }
         e.preventDefault();
-        window.scrollTo(0, 0);
+        window.scrollTo({
+            top:0,
+            behavior: "smooth"
+        });
         const token = captchaRef.current.getValue()!;
 
         const dataWithToken = {
@@ -70,7 +73,10 @@ const ContactForm = () => {
     };
     const onError = (err: any, e: any) => {
         console.log('error', err);
-        window.scrollTo(0, 0);
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
         e.preventDefault();
     };
 

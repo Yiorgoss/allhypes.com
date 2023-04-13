@@ -89,7 +89,7 @@ msgstr "Διοίκηση Επιχειρήσεων"
 
 #: src/pages/index.tsx:82
 msgid "Home.title.clients"
-msgstr "πελάτες"
+msgstr "Πελάτες"
 
 #: src/pages/index.tsx:91
 msgid "Home.title.contributors"

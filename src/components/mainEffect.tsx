@@ -95,7 +95,7 @@ const MainEffect = ({
     };
     return (
         <div className="z-20 bg-primary pt-[100px]">
-            <div className="relative z-20 block pt-20 md:pt-0 pb-[10vh] text-secondary hover:text-[#bababa]">
+            <div className="relative uppercase z-20 block pt-20 md:pt-0 pb-[10vh] text-secondary hover:text-[#bababa]">
                 {effectData.map(({ title, href }, i) => (
                     <Title
                         title={title}

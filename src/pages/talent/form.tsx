@@ -38,7 +38,10 @@ const TalentForm = () => {
 
     const onSubmit = async (data: any, e: any) => {
         e.preventDefault();
-        window.scrollTo(0, 0);
+        window.scrollTo({
+            top:0,
+            behavior: "smooth"
+        });
         //console.log('data', data);
         const res = await fetch('/api/form', {
             method: 'POST',
@@ -70,7 +73,10 @@ const TalentForm = () => {
 
     const onError = (err: any, e: any) => {
         console.log('error', err);
-        window.scrollTo(0, 0);
+        window.scrollTo({
+            top:0,
+            behavior: "smooth"
+        });
         e.preventDefault();
     };
 
